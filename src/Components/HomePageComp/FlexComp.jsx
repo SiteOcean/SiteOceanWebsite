@@ -16,7 +16,7 @@ const FlexSection = () => {
        
       </div>
 
-      <div  data-aos="flip-right" className="w-full lg:w-1/2 px-4 py-4">
+      <div className="w-full lg:w-1/2 px-4 py-4">
       <Image src={Img1} width={300} height={120} alt='img' priority className='w-full sm:w-[80%] mx-auto my-auto h-[360px] rounded-lg'/>
       </div>
       
@@ -33,7 +33,7 @@ const FlexSection = () => {
       
       </div>
 
-      <div  data-aos="flip-right" className="w-full lg:w-1/2 px-4 py-4">
+      <div className="w-full lg:w-1/2 px-4 py-4">
       <Image src={Img2} width={300} height={120} alt='img' priority className='w-full sm:w-[80%] mx-auto my-auto h-[360px] rounded-lg'/>
       </div>
       
@@ -46,7 +46,7 @@ const FlexSection = () => {
 
       </div>
 
-      <div  data-aos="flip-right" className="w-full lg:w-1/2 px-4 py-4">
+      <div className="w-full lg:w-1/2 px-4 py-4">
       <Image src={Img3} width={300} height={120} alt='img' priority className='w-full sm:w-[80%] mx-auto my-auto h-[360px] rounded-lg'/>
       </div>
       
