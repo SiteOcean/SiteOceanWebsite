@@ -28,7 +28,7 @@ const Carousel = () => {
     <div className="relative pt-5 sm:min-h-[300px] flex flex-col items-center justify-center" >
     
      
-          <h1  className='bg-gradient-to-r p-3 sm:p-0 from-blue-600 to-indigo-500 text-transparent bg-clip-text text-[19px] font-bold underline'>Wlecome To SiteOcean</h1>
+          <h1  data-aos="zoom-in" className='bg-gradient-to-r p-3 sm:p-0 from-blue-600 to-indigo-500 text-transparent bg-clip-text text-[19px] font-bold underline'>Wlecome To SiteOcean</h1>
           <h2  className="bg-gradient-to-r from-blue-600 via-green-600 to-indigo-500 text-transparent bg-clip-text font-serif font-bold text-[16px]  sm:text-[25px] text-center w-[92%] sm:w-[70%] lg:w-[50%] mx-auto my-auto">
           "We're dedicated to making all businesses accessible online, so that customers can easily find and connect with them from anywhere, at any time, empowering businesses to thrive in the digital era".
         </h2>
