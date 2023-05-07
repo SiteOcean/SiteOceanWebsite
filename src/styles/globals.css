@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav{
+  display: none;
+}
+.navnone{
+  display: flex;
+}
