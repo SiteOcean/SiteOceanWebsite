@@ -1,7 +1,10 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import React from 'react'
 
 const Footer = () => {
+
+  const router = useRouter()
   return (
     <footer className="bg-gradient-to-r from-[#6b6bf7] to-[#d1a0f5] py-2 sm:py-4">
       <div className="container mx-auto px-4 w-[80%]">
@@ -14,13 +17,13 @@ const Footer = () => {
 
             <ul className="p-5 lg:p-7 w-full flex justify-around">
             <Link href="/">
-                  <span className="text-gray-100 md:m-2 underline hover:bg-gray-200  lg:px-3 lg:py-2 rounded-md text-md font-medium">Home</span>
+                  <span style={{color:router.pathname === "/" ? "black" : "white"}}  className="text-gray-100 md:m-2 underline hover:bg-gray-200  lg:px-3 lg:py-2 rounded-md text-md font-medium">Home</span>
                 </Link>              
                 <Link href="/Layouts/AboutPage">
-                  <span className="text-gray-100 md:m-2 underline hover:bg-gray-200 hover:text-[#00cccc] lg:px-3 lg:py-2 rounded-md text-md font-medium">About</span>
+                  <span style={{color:router.pathname === "/Layouts/AboutPage" ? "black" : "white"}} className="text-gray-100 md:m-2 underline hover:bg-gray-200 hover:text-[#00cccc] lg:px-3 lg:py-2 rounded-md text-md font-medium">About</span>
                 </Link>
                 <Link href="/Layouts/ContactPage">
-                  <span className="text-gray-100 md:m-2 underline hover:bg-gray-200 hover:text-[#00cccc] lg:px-3 lg:py-2 rounded-md text-md font-medium">Contact</span>
+                  <span style={{color:router.pathname === "/Layouts/ContactPage" ? "black" : "white"}} className="text-gray-100 md:m-2 underline hover:bg-gray-200 hover:text-[#00cccc] lg:px-3 lg:py-2 rounded-md text-md font-medium">Contact</span>
                 </Link>            </ul>
           </div>
           <div className="w-full md:w-1/4 text-center md:text-left">

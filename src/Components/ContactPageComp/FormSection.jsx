@@ -30,15 +30,15 @@ const FormSection = () => {
     // }
   };
   return (
-    <div className="flex-1 flex flex-col items-center justify-center h-screen">
+    <div className="flex-1 flex flex-col items-center justify-center">
       {/* <Head>
         <title>Contact Us | My Startup Business</title>
         <link rel="icon" href="/favicon.ico" />
       </Head> */}
 
-      <h1 className="text-[16px] md:text-3xl font-bold mb-3 mt-3 md:mt-1 text-[#00cccc]">Get in touch</h1>
+      <h1 className="text-[16px] md:text-3xl font-bold mb-3 mt-3 md:mt-1 text-gray-900">Get in Touch</h1>
 
-      <form onSubmit={handleSubmit} className="w-full max-w-lg">
+      <form onSubmit={handleSubmit} className="w-[70%] sm:w-full max-w-lg ">
         <div className="mb-6">
           <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
             Name

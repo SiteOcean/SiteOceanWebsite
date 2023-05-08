@@ -3,22 +3,22 @@ const Banner = () => {
   
     return (
       <div className="bg-white min-h-[90vh]">
-        <div className="max-w-7xl mx-auto py-9 px-4 sm:py-16 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto py-7 px-4 sm:py-10 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl tracking-tight text-gray-500 sm:text-4xl font-bold">
+            <h2 className="text-3xl tracking-tight text-gray-600 sm:text-4xl font-bold">
               Welcome to SiteOcean
             </h2>
             <div className="mt-4 text-lg text-gray-600 sm:w-[70%] mx-auto font-serif">
               We're a dynamic and forward-thinking startup that's passionate about leveraging the power of mobile and web-based technology to make life easier and more convenient for our users. Our team of experts has developed a range of innovative and intuitive apps that help users save time, stay organized, and stay connected.
               <br/><br/>
-              Our local search engine app is dedicated to helping people find everything they need, from restaurants and shops to services and events, all within their local community.
+              Our dedicated local search engine app is designed to empower users in finding everything they need, including businesses, services, and events, right within their local community. Discover the full potential of your neighborhood with our comprehensive and user-friendly platform.
               <br/><br/>
               We believe that supporting local businesses is key to building strong and vibrant communities. That's why we've made it our mission to make it easy for users to discover and connect with local businesses and services that meet their needs.
-              <span>
+              <span className="text-slate-600">
                 Our app is designed to be user-friendly and intuitive, with powerful search capabilities that enable users to find what they're looking for quickly and easily. People can search by category, location, or keyword and view detailed information on each listing, including reviews, ratings, and photos.
               </span>
             </div>
-            <span className="bg-gradient-to-r from-[blue]  to-[#36045a] inline-block text-transparent bg-clip-text mt-[10px]">With our App, you'll be able to stay organized, stay connected, and stay ahead of the business.</span>
+            <span className="bg-gradient-to-r from-[blue] font-bold  to-[#36045a] inline-block text-transparent bg-clip-text mt-[10px] md:w-[70%]">Experience the innovation of our App, where seamless organization, constant connectivity, and a competitive edge in the business world are at your fingertips, empowering you to stay ahead of the curve.</span>
           </div>
         </div>
         <div className="max-w-7xl mx-auto py-3 px-4 lg:py-16 sm:px-6 lg:px-8 text-center">

@@ -28,9 +28,8 @@ const Carousel = () => {
     <div className="relative pt-5 sm:min-h-[300px] flex flex-col items-center justify-center" >
     
      
-          <h1  data-aos="zoom-in" className='bg-gradient-to-r p-3 sm:p-0 from-blue-600 to-indigo-500 text-transparent bg-clip-text text-[19px] font-bold underline'>Wlecome To SiteOcean</h1>
-          <h2  className="bg-gradient-to-r from-blue-600 via-green-600 to-indigo-500 text-transparent bg-clip-text font-serif font-bold text-[16px]  sm:text-[25px] text-center w-[92%] sm:w-[70%] lg:w-[50%] mx-auto my-auto">
-          "We're dedicated to making all businesses accessible online, so that customers can easily find and connect with them from anywhere, at any time, empowering businesses to thrive in the digital era".
+          <h2  className="text-gray-700 font-serif font-bold text-[14px]  sm:text-[23px] md:text-[20px] text-center w-[97%] sm:w-[85%] lg:w-[60%] mx-auto my-auto">
+          <span className='bg-gradient-to-r p-3 sm:p-0 from-blue-600 via-pink-500 to-indigo-500 text-transparent bg-clip-text text-[16px] md:text-[30px]'>"Welcome to our innovative startup"</span>, where we are dedicated to creating a cutting-edge platform that revolutionizes online presence for businesses. Experience the power of digital accessibility and seamless connectivity, empowering businesses to thrive in the dynamic and interconnected digital landscape, unlocking unprecedented growth and success in the online realm.
         </h2>
     </div>
   )

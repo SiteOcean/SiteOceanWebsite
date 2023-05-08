@@ -12,7 +12,7 @@ const FlexSection = () => {
      <div className="flex flex-col-reverse sm:flex-row justify-center">
       <div className="w-full lg:w-1/2 px-4 py-4 flex flex-col justify-center align-middle">
         {/* <h1 className="text-3xl font-bold mb-2">Section Title</h1> */}
-        <p className="text-gray-600 font-serif sm:w-[70%] mx-auto mb-4">online store app that's dedicated to providing a seamless shopping experience to our users. Our team of experts has developed a powerful and intuitive platform that enables you to browse and purchase products from your favorite retailers, all in one place.</p>
+        <p className="text-gray-600 font-serif sm:w-[70%] mx-auto mb-4">Create your own appsite within our platform and witness the rapid elevation of your business's online visibility, allowing you to reach a broader audience and thrive in the dynamic digital realm.</p>
        
       </div>
 
@@ -29,7 +29,7 @@ const FlexSection = () => {
       
       <div className="w-full lg:w-1/2 px-4 py-4 flex flex-col justify-center align-middle">
         {/* <h1 className="text-3xl font-bold mb-2">Section Title</h1> */}
-        <p className="text-gray-600 font-serif sm:w-[70%] mx-auto mb-4">we understand that online shopping can be overwhelming, which is why we've made it our mission to simplify the process. Our app is designed to be user-friendly and intuitive, with powerful search capabilities that enable you to find the products you're looking for quickly and easily.</p>
+        <p className="text-gray-600 font-serif sm:w-[70%] mx-auto mb-4">Customize your appsite with ease, tailoring it to your unique brand identity and seamlessly adding your products, services, and enticing offers. Take full control of your online presence and captivate your audience with a personalized appsite that truly represents your business.</p>
       
       </div>
 
@@ -42,7 +42,7 @@ const FlexSection = () => {
     <div className="flex flex-col-reverse sm:flex-row justify-center ">
       <div className="w-full lg:w-1/2 px-4 py-4 flex flex-col justify-center align-middle">
         {/* <h1 className="text-3xl font-bold mb-2">Section Title</h1> */}
-        <p className="text-gray-600 font-serif sm:w-[70%] mx-auto  mb-4">In our app, Everyone can be able to create online store or service AppSite with ease and convenience, anytime and anywhere.</p>
+        <p className="text-gray-600 font-serif sm:w-[70%] mx-auto  mb-4">Customizing every aspect, launch your business into the online world. Instantly share your offers with customers and maintain full control over your appsite's content, allowing you to update it anytime and from anywhere. This guarantees a dynamic, up-to-date, and highly relevant online presence that attracts a larger customer base and expands your business reach</p>
 
       </div>
 
