@@ -1,6 +1,5 @@
 const nodemailer = require('nodemailer');
-const EMAIL="siteoceanwebsite@gmail.com"
-const EMAIL_PASS="oledqqpqunehmzcx"
+
 export default async function handler(req, res) {
   if (req.method === 'POST') {
     const { name, email, message } = req.body;
@@ -10,14 +9,14 @@ export default async function handler(req, res) {
       const transporter = nodemailer.createTransport({
         service: 'Gmail',
         auth: {
-          user: EMAIL,
-          pass: EMAIL_PASS,
+          user: "siteoceanwebsite@gmail.com",
+          pass: "oledqqpqunehmzcx",
         },
       });
 
       // Send email
       transporter.sendMail({
-        from: EMAIL,
+        from: "siteoceanwebsite@gmail.com",
         to: "tosathishsite@gmail.com",
         subject:"MESSAGE FROM WEBSITE ",
         text: message,
