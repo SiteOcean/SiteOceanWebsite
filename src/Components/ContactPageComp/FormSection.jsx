@@ -31,6 +31,11 @@ const FormSection = () => {
     } else {
       // Error sending email
       alert("somthing went worng")
+      setloader(false)
+      alert("Email Sent Sucessfull")
+      setEmail("")
+      setMessage("")
+      setName("")
       console.error('Error sending email:', response.statusText);
     }
   };
