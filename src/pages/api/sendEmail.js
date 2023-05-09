@@ -1,6 +1,6 @@
 const nodemailer = require('nodemailer');
-const email1 = process.env.EMAIL;
-const pass1 = process.env.EMAIL_PASS;
+const EMAIL="siteoceanwebsite@gmail.com"
+const EMAIL_PASS="oledqqpqunehmzcx"
 export default async function handler(req, res) {
   if (req.method === 'POST') {
     const { name, email, message } = req.body;
@@ -10,8 +10,8 @@ export default async function handler(req, res) {
       const transporter = nodemailer.createTransport({
         service: 'Gmail',
         auth: {
-          user: email1,
-          pass: pass1,
+          user: EMAIL,
+          pass: EMAIL_PASS,
         },
       });
 
