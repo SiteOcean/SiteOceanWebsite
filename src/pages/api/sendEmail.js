@@ -1,8 +1,6 @@
-import { EMAIL, EMAIL_PASS } from './config';
-
 const nodemailer = require('nodemailer');
-const email1 =EMAIL;
-const pass1 = EMAIL_PASS;
+const email1 = process.env.EMAIL;
+const pass1 = process.env.EMAIL_PASS;
 export default async function handler(req, res) {
   if (req.method === 'POST') {
     const { name, email, message } = req.body;
