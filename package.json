@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cross-env EMAIL=tosathishsite@gmail.com EMAIL_PASS=shgwtapejbkxayxh next build",
     "start": "next start",
     "lint": "next lint"
   },
