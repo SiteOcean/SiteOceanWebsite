@@ -5,29 +5,34 @@ const FormSection = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
-  
+  const [loader, setloader] = useState(false)
   
   const handleSubmit = async (e) => {
+    setloader(true)
     e.preventDefault();
-    alert("email sent failed")
-    setName("")
-    setEmail("")
-    setMessage("")
-    // const response = await fetch('/api/sendEmail', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //   },
-    //   body: JSON.stringify({ name, email, message }),
-    // });
+    if(!name || !email || !message){
+      setloader(false)
+      return alert("Please fill all fields")
+    }
+    const response = await fetch('/api/sendEmail', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name, email, message }),
+    });
 
-    // if (response.ok) {
-    //   // Email sent successfully
-    //   console.log('Email sent!');
-    // } else {
-    //   // Error sending email
-    //   console.error('Error sending email:', response.statusText);
-    // }
+    if (response.ok) {
+      setloader(false)
+      alert("Email Sent Sucessfull")
+      setEmail("")
+      setMessage("")
+      setName("")
+    } else {
+      // Error sending email
+      alert("somthing went worng")
+      console.error('Error sending email:', response.statusText);
+    }
   };
   return (
     <div className="flex-1 flex flex-col items-center justify-center">
@@ -78,12 +83,12 @@ const FormSection = () => {
           />
         </div>
         <div className="flex items-center justify-between">
-          <button disabled type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-            Send
-          </button>
+          <button type="submit" className="bg-blue-500 w-[100px] mx-auto hover:bg-blue-700 justify-center flex text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+        {loader ? <span className="animate-spin rounded-full p-2 h-2 w-3 border-t-2 border-b-2 border-white"></span> : null}
+              {!loader ? <span>Send</span> : null}
+            </button>
         </div>
       </form>
-
     </div>
   )
 }

@@ -17,8 +17,11 @@ const NavBar = () => {
           <div className="flex-1 flex flex-col sm:flex-row items-center relative justify-between sm:items-stretch ">
             
             {/* icon */}
-            <div  className="sm:hidden flex-shrink-0 absolute top-1 right-5">
-           <button onClick={handleNav}><AiOutlineMenu className='text-[25px] text-white'/></button>
+            <div  className="sm:hidden flex-shrink-0 absolute top-1 right-5 ">
+            
+           <button onClick={handleNav} className='relative'><AiOutlineMenu className='text-[25px] text-white'/>
+           <span className='animate-pulse w-2 h-2 absolute top-0 right-0 rounded-full bg-white'></span>
+           </button>
             </div>
 
             <div className="flex-shrink-0">

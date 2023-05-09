@@ -1,5 +1,6 @@
-import nodemailer from 'nodemailer';
-
+const nodemailer = require('nodemailer');
+const email1 = process.env.EMAIL;
+const pass1 = process.env.EMAIL_PASS;
 export default async function handler(req, res) {
   if (req.method === 'POST') {
     const { name, email, message } = req.body;
@@ -9,20 +10,22 @@ export default async function handler(req, res) {
       const transporter = nodemailer.createTransport({
         service: 'Gmail',
         auth: {
-          user: 'sathish5888@gmail.com',
-          pass: 'SathisH5563',
+          user: email1,
+          pass: pass1,
         },
       });
 
       // Send email
-      await transporter.sendMail({
-        from: 'sathish5888@gmail.com',
+      transporter.sendMail({
+        from: email1,
         to: "tosathishsite@gmail.com",
-        name,
+        subject:"MESSAGE FROM WEBSITE ",
         text: message,
+        html:`<h3>Name :${name}</h3><p>email : ${email}</p><p>Message : ${message}</p>`,
       });
-
+      
       res.status(200).json({ message: 'Email sent successfully' });
+
     } catch (error) {
       console.error('Error sending email:', error);
       res.status(500).json({ message: 'An error occurred while sending the email' });

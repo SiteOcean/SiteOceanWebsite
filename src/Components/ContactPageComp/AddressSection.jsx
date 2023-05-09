@@ -1,6 +1,11 @@
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa'
 
 const AddressSection = () => {
+
+  const handleEmailClick = () => {
+    window.location.href = `mailto:${"info@siteocean.in"}`;
+  };
+
   return (
     <div className="flex-1 flex flex-col items-center justify-center h-screen p-6 sm:p-0">
       <div className="sm:max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -20,7 +25,7 @@ const AddressSection = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold mb-2">Mobile</h3>
-              <p className="text-gray-700">8122183129</p>
+              <p className="text-gray-700"></p>
             </div>
           </div> */}
           <div className="flex items-center">
@@ -29,7 +34,8 @@ const AddressSection = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold mb-2">Email</h3>
-              <p className="text-gray-700">info@siteocean.in</p>
+              <p className="text-gray-700 underline">info@siteocean.in</p>
+              
             </div>
           </div>
         </div>
