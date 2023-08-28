@@ -8,10 +8,10 @@ const { default: Footer } = require("@/Components/Footer")
 const HomePage=()=>{
 
 
-    return (<div className="w-full bg-white">
+    return (<div className="w-[100%] bg-white">
          <NavBar/>
          <Carousel/>
-        <div className="w-[100%] sm:w-[90%] mx-auto">
+        <div className="w-[100%] md:w-[90%] mx-auto">
        
         <FlexPageCards/>
         <FlexSection/>

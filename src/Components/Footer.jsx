@@ -6,7 +6,7 @@ const Footer = () => {
 
   const router = useRouter()
   return (
-    <footer className="bg-white text-gray-600 py-2 border-t sm:py-4">
+    <footer className="bg-white w-full text-gray-600 py-2 border-t sm:py-4">
       <div className="container mx-auto px-4 w-[80%]">
         <div className="flex flex-wrap items-center justify-between">
           <div className="w-full md:w-1/4 text-center md:text-left p-3">

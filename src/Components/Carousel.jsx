@@ -24,7 +24,7 @@ const Carousel = () => {
   }
 
   return (
-    <div className="relative min-h-[50vh] pt-6 flex flex-col items-center justify-center" >
+    <div className="relative w-full md:min-h-[50vh] pt-6 flex flex-col md:items-center md:justify-center" >
     
      
           <h2  className="text-gray-500 md:text-gray-700 font-serif font-bold text-[14px]  sm:text-[23px] md:text-[20px] md:text-center w-[90%] sm:w-[85%] lg:w-[60%] mx-auto my-auto">

@@ -18,7 +18,7 @@ const NavBar = () => {
   }
 
   return (
-    <nav className="bg-gradient-to-r bg-white text-stone-900  sticky top-0 z-50 shadow-md">
+    <nav className="bg-gradient-to-r w-full bg-white text-stone-900  sticky top-0 z-50 shadow-md">
       <div className="max-w-7xl mx-auto px-2 p-1 sm:p-0 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between min-h-[60px] ">
           <div className="flex-1 flex flex-col px-5 md:px-1 sm:flex-row md:items-center relative justify-between sm:items-stretch ">

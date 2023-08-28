@@ -8,7 +8,7 @@ import Img3 from '../../images/ShopersCouple.jpg'
 import Link from 'next/link'
 const FlexPageCards = () => {
   return (
-    <div className='pt-4'>
+    <div className='pt-4 w-full'>
       <h1 className='text-center font-bold text-[25px] py-3 text-[gray] uppercase underline underline-offset-4'>Our Products</h1>
       <div  
       data-aos="fade-right"
