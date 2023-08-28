@@ -3,14 +3,13 @@ const Banner = () => {
   
     return (
       <div className="bg-white min-h-[90vh]">
-        <div className="max-w-7xl mx-auto py-7 px-4 sm:py-10 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h2 className="text-3xl tracking-tight text-gray-600 sm:text-4xl font-bold">
-              Welcome to SiteOcean
+        <div className="max-w-7xl mx-auto py-7 sm:py-10 px-6 lg:px-8">
+          <div className="md:text-center">
+            <h2 className="text-3xl tracking-tight text-gray-500 sm:text-4xl font-bold">
+            Learn More About SiteOcean
             </h2>
-            <div className="mt-4 text-lg text-gray-600 sm:w-[70%] mx-auto font-serif">
-              We're a dynamic and forward-thinking startup that's passionate about leveraging the power of mobile and web-based technology to make life easier and more convenient for our users. Our team of experts has developed a range of innovative and intuitive apps that help users save time, stay organized, and stay connected.
-              <br/><br/>
+            <div className="mt-4 text-lg text-gray-500 sm:w-[70%] mx-auto font-serif">
+    
               Our dedicated local search engine app is designed to empower users in finding everything they need, including businesses, services, and events, right within their local community. Discover the full potential of your neighborhood with our comprehensive and user-friendly platform.
               <br/><br/>
               We believe that supporting local businesses is key to building strong and vibrant communities. That's why we've made it our mission to make it easy for users to discover and connect with local businesses and services that meet their needs.
