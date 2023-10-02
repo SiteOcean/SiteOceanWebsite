@@ -18,7 +18,7 @@ const NavBar = () => {
   }
 
   return (
-    <nav className="bg-gradient-to-r w-full bg-white text-stone-900  sticky top-0 z-50 shadow-md">
+    <nav className=" w-full bg-white text-stone-900  sticky top-0 z-50 shadow-lg">
       <div className="max-w-7xl mx-auto px-2 p-1 sm:p-0 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between min-h-[60px] ">
           <div className="flex-1 flex flex-col px-5 md:px-1 sm:flex-row md:items-center relative justify-between sm:items-stretch ">
@@ -54,7 +54,7 @@ const NavBar = () => {
 
             <div className="flex-shrink-0">
               <Link href="/">
-                <span className=" text-[23px]">SiteOcean</span>
+                <span className="l text-[23px] font-serif">SiteOcean</span>
               </Link>
             </div>
 
@@ -77,7 +77,7 @@ const NavBar = () => {
             {isMenuOpen ? <div id='nav' className={`md:hidden border-t fixed transform-gpu transition-all text-center opacity-95 -z-10 left-0 min-h-[200px] font-bold right-0 py-3 duration-1500 bg-white ${isMenuOpen ? "translate-y-12 top-2" : "translate-y-12 -top-[250px]"}`}>
 
               <div className="flex flex-col space-y-6 font-serif">
-              <Link href="/">
+              <Link href="/" className=''>
                   <span style={{color:router.pathname === "/" ? "black" : "gray"}} className=" md:hover:bg-gray-200 hover:text-[#00cccc] px-3 py-2 rounded-md ">Home</span>
                 </Link>
                 <Link href="/Layouts/AboutPage">

@@ -5,7 +5,7 @@ const Banner = () => {
       <div className="bg-white min-h-[90vh]">
         <div className="max-w-7xl mx-auto py-7 sm:py-10 px-6 lg:px-8">
           <div className="md:text-center">
-            <h2 className="text-xl tracking-tight bg-gradient-to-r sm:p-0 from-blue-600 via-pink-500 to-indigo-500 text-transparent bg-clip-text sm:text-2xl font-bold">
+            <h2 className="text-xl tracking-tight bg-gradient-to-r sm:p-0 from-[#c9be2c] via-pink-500 to-indigo-500 text-transparent bg-clip-text sm:text-2xl font-bold">
             Learn More About SiteOcean
             </h2>
             <div className="mt-4 text-lg text-gray-500 sm:w-[70%] mx-auto font-serif">

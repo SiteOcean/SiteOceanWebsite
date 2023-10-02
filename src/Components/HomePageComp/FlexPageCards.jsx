@@ -8,8 +8,8 @@ import Img3 from '../../images/ShopersCouple.jpg'
 import Link from 'next/link'
 const FlexPageCards = () => {
   return (
-    <div className='pt-4 w-full'>
-      <h1 className='text-center font-bold text-[25px] py-3 text-[gray] uppercase underline underline-offset-4'>Our Products</h1>
+    <div className='pt-7 md:pt-3 w-full'>
+      <h1 className='text-center font-bold text-[20px] py-1 text-[gray] uppercase underline underline-offset-4'>Our Products</h1>
       <div  
       data-aos="fade-right"
       data-aos-anchor="#example-anchor"
@@ -18,7 +18,7 @@ const FlexPageCards = () => {
       className="grid grid-col-1 md:grid-cols-2 text-[#615d5d] justify-center ">
       <div className="hover:bg-[#f8f5f5] bg-white shadow-lg mx-4 my-4 border rounded-lg overflow-hidden flex flex-col p-5 space-y-2 ">
        <div className='flex justify-between px-1'>
-       <h1 className="font-serif font-bold text-[19px] md:text-[25px] text-[blue] capitalize underline underline-offset-4">ApLook</h1>
+       <h1 className="font-serif font-bold text-[19px] md:text-[25px] text-[#47d3cc] capitalize underline underline-offset-4">ApLook</h1>
        
        </div>
         <p className=' font-sans text-[14px] md:text-[16px] '>Elevate your local experience with our Aplook, effortlessly searching and engaging with nearby businesses. Stay up-to-date with current services, events, offers and more, all in one place. Experience the future of seamless local exploration.</p>
