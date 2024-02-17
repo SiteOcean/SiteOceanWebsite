@@ -12,6 +12,8 @@ export default function Document() {
             content="Discover the best local businesses, services, and attractions near you with our powerful local search engine."
           />
       <body>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1951666009365713"
+     crossOrigin="anonymous"></script>
         <Main />
         <NextScript />
       </body>
