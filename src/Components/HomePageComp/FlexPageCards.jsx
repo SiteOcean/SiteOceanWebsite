@@ -16,7 +16,7 @@ const FlexPageCards = () => {
       data-aos-offset="500"
       data-aos-duration="500"
       className="grid grid-col-1 md:grid-cols-2 text-[#615d5d] justify-center ">
-      <div className="hover:bg-[#f8f5f5] bg-white shadow-lg mx-4 my-4 border rounded-lg overflow-hidden flex flex-col p-5 space-y-2 ">
+      {/* <div className="hover:bg-[#f8f5f5] bg-white shadow-lg mx-4 my-4 border rounded-lg overflow-hidden flex flex-col p-5 space-y-2 ">
        <div className='flex justify-between px-1'>
        <h1 className="font-serif font-bold text-[19px] md:text-[25px] text-[#47d3cc] capitalize underline underline-offset-4">ApLook</h1>
        
@@ -25,7 +25,7 @@ const FlexPageCards = () => {
         <Link href="https://aplook.in/" target="_blank" rel="noopener noreferrer" className={`px-1 md:px-3 py-1 rounded-md text-[#4646f1] mt-2 underline self-end`}>
           www.aplook.in
         </Link>
-      </div>
+      </div> */}
 
       <div className="bg-gradient-to-r bg-white shadow-lg h-[100px] md:h-auto mx-4 my-4 border rounded-lg overflow-hidden flex flex-col items-center justify-center">
         <h1 className="font-serif font-bold text-[14px] md:text-[19px]">Scalable Solutions</h1>
