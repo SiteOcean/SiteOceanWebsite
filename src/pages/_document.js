@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
+      <meta name="google-adsense-account" content="ca-pub-1951666009365713"></meta>
       <title>SiteOcean</title>
       <link rel="icon" href="/favicon.jpg" />
           <link rel="apple-touch-icon" href="/favicon.jpg" />
