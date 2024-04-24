@@ -18,9 +18,9 @@ const NavBar = () => {
   }
 
   return (
-    <nav className=" w-full bg-white text-stone-900  sticky top-0 z-50 shadow-lg">
+    <nav className=" w-full bg-white text-[#b247d3] sticky top-0 z-50 shadow-lg shadow-[#eebbfd]">
       <div className="max-w-7xl mx-auto px-2 p-1 sm:p-0 sm:px-6 lg:px-8">
-        <div className="relative flex items-center justify-between min-h-[60px] ">
+        <div className="relative flex items-center justify-between py-2 sm:py-0 sm:min-h-[60px] ">
           <div className="flex-1 flex flex-col px-5 md:px-1 sm:flex-row md:items-center relative justify-between sm:items-stretch ">
             
             {/* icon */}
@@ -62,13 +62,13 @@ const NavBar = () => {
               <div className="flex flex-col justify-around md:space-x-5 min-h-[150px]
                sm:min-h-0 sm:flex-row text-[19px] font-serif">
               <Link href="/">
-                  <span style={{color:router.pathname === "/" ? "black" : "gray"}} className=" md:hover:bg-gray-200 hover:text-[#00cccc] px-3 py-2 rounded-md ">Home</span>
+                  <span style={{color:router.pathname === "/" ? "#83359b" : "#b247d3"}} className=" md:hover:bg-gray-200 hover:text-[#00cccc] px-3 py-2 rounded-md ">Home</span>
                 </Link>
                 <Link href="/Layouts/AboutPage">
-                  <span style={{color:router.pathname === "/Layouts/AboutPage" ? "black" : "gray"}} className=" md:hover:bg-gray-200 hover:text-[#00cccc] px-3 py-2 rounded-md ">About</span>
+                  <span style={{color:router.pathname === "/Layouts/AboutPage" ? "#83359b" : "#b247d3"}} className=" md:hover:bg-gray-200 hover:text-[#00cccc] px-3 py-2 rounded-md ">About</span>
                 </Link>
                 <Link href="/Layouts/ContactPage">
-                  <span style={{color:router.pathname === "/Layouts/ContactPage" ? "black" : "gray"}} className=" md:hover:bg-gray-200 hover:text-[#00cccc] px-3 py-2 rounded-md ">Contact</span>
+                  <span style={{color:router.pathname === "/Layouts/ContactPage" ? "#83359b" : "#b247d3"}} className=" md:hover:bg-gray-200 hover:text-[#00cccc] px-3 py-2 rounded-md ">Contact</span>
                 </Link>
               </div>
             </div>
@@ -78,13 +78,13 @@ const NavBar = () => {
 
               <div className="flex flex-col space-y-6 font-serif">
               <Link href="/" className=''>
-                  <span style={{color:router.pathname === "/" ? "black" : "gray"}} className=" md:hover:bg-gray-200 hover:text-[#00cccc] px-3 py-2 rounded-md ">Home</span>
+                  <span style={{color:router.pathname === "/" ? "#83359b" : "#b247d3"}} className=" md:hover:bg-gray-200 hover:text-[#00cccc] px-3 py-2 rounded-md ">Home</span>
                 </Link>
                 <Link href="/Layouts/AboutPage">
-                  <span style={{color:router.pathname === "/Layouts/AboutPage" ? "black" : "gray"}} className=" md:hover:bg-gray-200 hover:text-[#00cccc] px-3 py-2 rounded-md ">About</span>
+                  <span style={{color:router.pathname === "/Layouts/AboutPage" ? "#83359b" : "#b247d3"}} className=" md:hover:bg-gray-200 hover:text-[#00cccc] px-3 py-2 rounded-md ">About</span>
                 </Link>
                 <Link href="/Layouts/ContactPage">
-                  <span style={{color:router.pathname === "/Layouts/ContactPage" ? "black" : "gray"}} className=" md:hover:bg-gray-200 hover:text-[#00cccc] px-3 py-2 rounded-md ">Contact</span>
+                  <span style={{color:router.pathname === "/Layouts/ContactPage" ? "#83359b" : "#b247d3"}} className=" md:hover:bg-gray-200 hover:text-[#00cccc] px-3 py-2 rounded-md ">Contact</span>
                 </Link>
               </div>
             </div> : null}

@@ -40,7 +40,7 @@ const FormSection = () => {
     }
   };
   return (
-    <div className="flex-1 flex flex-col items-center justify-center">
+    <div className="flex-1 flex flex-col items-center mt-3 sm:mt-0 justify-center">
       {/* <Head>
         <title>Contact Us | My Startup Business</title>
         <link rel="icon" href="/favicon.ico" />

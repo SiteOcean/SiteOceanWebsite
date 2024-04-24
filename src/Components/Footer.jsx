@@ -10,8 +10,8 @@ const Footer = () => {
       <div className="container mx-auto px-4 w-[80%]">
         <div className="flex flex-wrap items-center justify-between">
           <div className="w-full md:w-1/4 text-center md:text-left p-3">
-            <h2 className=" text-lg font-bold leading-tight mb-2">Site Ocean Private Limited</h2>
-            <p className=" text-sm">Revolutionize Your Business's Online Presence with Our Products</p>
+            <h2 className=" text-lg text-[#b247d3] font-bold leading-tight mb-2">Site Ocean Private Limited</h2>
+            <p className=" text-sm">Revolutionize Your Business's Online Presence with Our Service</p>
           </div>
           <div className="w-full md:w-1/4 text-center">
 
@@ -27,8 +27,8 @@ const Footer = () => {
                 </Link>            </ul>
           </div>
           <div className="w-full md:w-1/4 text-center md:text-left">
-            <h2 className=" text-xl font-bold leading-tight mb-2">Social Media</h2>
-            <ul className="list-reset">
+            <h2 className=" text-xl font-bold leading-tight mb-2 text-[#b247d3]">Social Media</h2>
+            <ul className="list-reset md:flex gap-x-6">
               <li className="my-2"><a href="#" className=" hover: text-sm">Facebook</a></li>
               <li className="my-2"><a href="#" className=" hover: text-sm">Twitter</a></li>
               <li className="my-2"><a href="#" className=" hover: text-sm">Instagram</a></li>
