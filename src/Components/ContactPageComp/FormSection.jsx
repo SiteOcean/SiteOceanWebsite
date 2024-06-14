@@ -14,30 +14,14 @@ const FormSection = () => {
       setloader(false)
       return alert("Please fill all fields")
     }
-    const response = await fetch('/api/sendEmail', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ name, email, message }),
-    });
+    const mailtoLink = `mailto:youremail@example.com?subject=Contact from ${name}&body=${encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+    )}`;
 
-    if (response.ok) {
-      setloader(false)
-      alert("Email Sent Sucessfull")
-      setEmail("")
-      setMessage("")
-      setName("")
-    } else {
-      // Error sending email
-      alert("somthing went worng")
-      setloader(false)
-      alert("Email Sent Sucessfull")
-      setEmail("")
-      setMessage("")
-      setName("")
-      console.error('Error sending email:', response.statusText);
-    }
+    window.location.href = mailtoLink;
+    setName("")
+    setEmail("")
+    setMessage("")
   };
   return (
     <div className="flex-1 flex flex-col items-center mt-3 sm:mt-0 justify-center">
@@ -89,8 +73,9 @@ const FormSection = () => {
         </div>
         <div className="flex items-center justify-between">
           <button type="submit" className="bg-blue-500 w-[100px] mx-auto hover:bg-blue-700 justify-center flex text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-        {loader ? <span className="animate-spin rounded-full p-2 h-2 w-3 border-t-2 border-b-2 border-white"></span> : null}
-              {!loader ? <span>Send</span> : null}
+        {/* {loader ? <span className="animate-spin rounded-full p-2 h-2 w-3 border-t-2 border-b-2 border-white"></span> : null}
+              {!loader ? <span>Send</span> : null} */}
+              <span>Send</span>
             </button>
         </div>
       </form>
