@@ -14,7 +14,7 @@ const FormSection = () => {
       setloader(false)
       return alert("Please fill all fields")
     }
-    const mailtoLink = `mailto:tosathishsite@gmail.com?subject=Message from website &body=${encodeURIComponent(
+    const mailtoLink = `mailto:info@siteocean.com?subject=Message from website &body=${encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     )}`;
 

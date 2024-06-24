@@ -28,10 +28,10 @@ const AddressSection = () => {
               <h3 className="text-xl font-bold space-y-2">Mobile</h3>
               <p className="font-semibold text-[#5f5c5c]">+91 - 8122183129</p>
               </div> 
-            {/* <div>
+            <div>
               <h3 className="text-xl font-bold mb-2 space-y-2">Email</h3>
               <p className=" underline text-[blue]">info@siteocean.in</p>
-              </div>    */}
+              </div>   
             </div>
       </div>
     </div>
