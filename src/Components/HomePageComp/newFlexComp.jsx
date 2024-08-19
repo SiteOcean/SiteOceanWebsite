@@ -18,7 +18,7 @@ const NewFlexSection = () => {
 
       <div data-aos="fade-up" className="w-full lg:w-1/2 px-4 py-4 bg-white"
       >
-      <Image src={Img1} width={300} height={120} alt='img' priority className='w-full  h-[360px] sm:h-[390px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
+      <img src={"/TamilIllustrativeYoutubeThumbnail.png"} width={300} height={120} alt='img' priority className='w-full  h-[360px] sm:h-[390px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
       </div>
       
     </div>
@@ -31,7 +31,7 @@ const NewFlexSection = () => {
       </div>
 
       <div data-aos="fade-up"  className="w-full lg:w-1/2 px-4 py-4">
-      <Image src={Img2} width={300} height={120} alt='img' priority className='w-full  h-[360px] sm:h-[390px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
+      <img src={"/PinkInsta.png"} width={300} height={120} alt='img' priority className='w-full  h-[360px] sm:h-[390px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
       </div>
       
     </div>
@@ -44,7 +44,7 @@ const NewFlexSection = () => {
       </div>
 
       <div  data-aos="fade-up" className="w-full lg:w-1/2 px-4 py-4">
-      <Image src={Img3} width={300} height={120} alt='img' priority className='w-full  h-[360px] sm:h-[390px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
+      <img src={"/online.png"} width={300} height={120} alt='img' priority className='w-full  h-[360px] sm:h-[390px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
       </div>
       
     </div>

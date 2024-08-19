@@ -11,7 +11,7 @@ const HomePage=()=>{
 
     return (<div className="w-[100%] bg-white">
          <NavBar/>
-         
+         <div className="bg-gradient-to-r from-white via-slate-50 to-green-50">
          <Carousel/>
         <div className="w-[100%] md:w-[90%]  mx-auto">
         <div className="flex flex-wrap justify-center ">
@@ -27,7 +27,7 @@ const HomePage=()=>{
         <h2 className="text-xl font-bold text-[#2c748a]">Real-time Projects</h2>
         <p>Learn frontend, backend, and database technologies through real-time projects.</p>
       </div>
-    </div>
+    </div></div>
 
    
         {/* <FlexPageCards/> */}
