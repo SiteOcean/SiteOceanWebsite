@@ -18,7 +18,7 @@ const NavBar = () => {
   }
 
   return (
-    <nav className=" w-full bg-[#3384ee] text-[white] sticky top-0 z-50 shadow-sm shadow-[#eebbfd]">
+   <nav className=" w-full bg-[#b936ec] text-[white] sticky top-0 z-50 shadow-sm shadow-[#eebbfd]">
       <div className="max-w-7xl mx-auto px-2 p-1 sm:p-0 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between py-2 sm:py-0 sm:min-h-[60px] ">
           <div className="flex-1 flex flex-col px-5 md:px-1 sm:flex-row md:items-center relative justify-between sm:items-stretch ">
@@ -62,19 +62,19 @@ const NavBar = () => {
               <div className="flex flex-col justify-around md:space-x-5 min-h-[150px]
                sm:min-h-0 sm:flex-row text-[19px] font-serif">
               <Link href="/">
-                  <span style={{fontWeight:router.pathname === "/" ? "bold" : "normal"}} className=" md:hover:bg-white hover:text-[#3384ee] px-3 py-2 rounded-md ">Home</span>
+                  <span style={{fontWeight:router.pathname === "/" ? "bold" : "normal"}} className=" md:hover:bg-white hover:text-[#b936ec] px-3 py-2 rounded-md ">Home</span>
                 </Link>
                 <Link href="/Layouts/AboutPage">
-                  <span style={{fontWeight:router.pathname === "/Layouts/AboutPage" ? "bold" : "normal"}} className=" md:hover:bg-white hover:text-[#3384ee] px-3 py-2 rounded-md ">About</span>
+                  <span style={{fontWeight:router.pathname === "/Layouts/AboutPage" ? "bold" : "normal"}} className=" md:hover:bg-white hover:text-[#b936ec] px-3 py-2 rounded-md ">About</span>
                 </Link>
                 <Link href="/Layouts/ContactPage">
-                  <span style={{fontWeight:router.pathname === "/Layouts/ContactPage" ? "bold" : "normal"}} className=" md:hover:bg-white hover:text-[#3384ee] px-3 py-2 rounded-md ">Contact</span>
+                  <span style={{fontWeight:router.pathname === "/Layouts/ContactPage" ? "bold" : "normal"}} className=" md:hover:bg-white hover:text-[#b936ec] px-3 py-2 rounded-md ">Contact</span>
                 </Link>
               </div>
             </div>
             {/* <span className='hidden sm:block w-[150px]'></span> */}
 
-            {isMenuOpen ? <div id='nav' className={`md:hidden border-t fixed transform-gpu transition-all text-center opacity-95 -z-10 left-0 min-h-[200px] font-bold right-0 py-3 duration-1500 bg-[#3384ee] text-[white]  ${isMenuOpen ? "translate-y-12 top-2" : "translate-y-12 -top-[250px]"}`}>
+            {isMenuOpen ? <div id='nav' className={`md:hidden border-t fixed transform-gpu transition-all text-center opacity-95 -z-10 left-0 min-h-[200px] font-bold right-0 py-3 duration-1500 bg-[#b936ec] text-[white]  ${isMenuOpen ? "translate-y-12 top-2" : "translate-y-12 -top-[250px]"}`}>
 
               <div className="flex flex-col space-y-6 font-serif">
               <Link href="/" className=''>

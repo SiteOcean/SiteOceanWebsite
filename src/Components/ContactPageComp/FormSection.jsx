@@ -30,7 +30,7 @@ const FormSection = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head> */}
 
-      <h1 className="text-[16px] md:text-3xl font-bold mb-3 mt-3 md:mt-1 text-gray-900">Get in Touch</h1>
+      <h1 className="text-[16px] md:text-3xl font-bold mb-3 mt-3 md:mt-1 text-[#b936ec]">Get in Touch</h1>
 
       <form onSubmit={handleSubmit} className="w-[70%] sm:w-full max-w-lg ">
         <div className="mb-6">
@@ -72,7 +72,7 @@ const FormSection = () => {
           />
         </div>
         <div className="flex items-center justify-between">
-          <button type="submit" className="bg-blue-500 w-[100px] mx-auto hover:bg-blue-700 justify-center flex text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+          <button type="submit" className="bg-[#b936ec] w-[100px] mx-auto hover:bg-blue-700 justify-center flex text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
         {/* {loader ? <span className="animate-spin rounded-full p-2 h-2 w-3 border-t-2 border-b-2 border-white"></span> : null}
               {!loader ? <span>Send</span> : null} */}
               <span>Send</span>
