@@ -2,29 +2,87 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="bg-white min-h-[90vh]">
-      <div className="max-w-7xl mx-auto py-7 sm:py-10 px-6 lg:px-8">
-        <div className="md:text-center">
-          <h2 className="text-xl tracking-tight bg-gradient-to-r sm:p-0 from-[#b936ec] to-[#fc0ef0] text-transparent bg-clip-text sm:text-2xl font-bold">
-            Learn More About SiteOcean
-          </h2>
-          <div className="mt-4 text-lg text-gray-500 sm:w-[70%] mx-auto font-serif">
-            We're a startup dedicated to developing a local search engine app that empowers users to discover businesses, services, and events in their community. Experience the full potential of your neighborhood with our comprehensive and user-friendly platform.
-            <br/><br/>
-            Supporting local businesses is vital for building strong communities. That's why we're committed to making it easy for users to find and connect with local businesses and services that meet their needs.
-            <span className="text-slate-600">
-              Our app is designed to be intuitive and user-friendly, with powerful search capabilities that enable users to find what they're looking for quickly and easily. Users can search by category, location, or keyword and view detailed information on each listing, including reviews, ratings, and photos.
-            </span>
+    <div className="w-[100%] md:w-[90%] mx-auto py-12">
+      {/* Introduction Section */}
+      <section className="text-center mb-12">
+        <h1 className="text-4xl font-bold text-indigo-600">About Siteocean Pvt Ltd</h1>
+        <p className="text-lg mt-4 text-gray-600">
+          At Siteocean Pvt Ltd, we are dedicated to creating innovative digital solutions and empowering the next generation of IT professionals.
+        </p>
+      </section>
+
+      {/* Mission Statement Section */}
+      <section className="bg-gradient-to-r from-[#b936ec] to-purple-500 p-8 text-white rounded-lg shadow-lg mb-12">
+        <h2 className="text-3xl font-bold">Our Mission</h2>
+        <p className="mt-4">
+          Our mission is to bridge the gap between technology and businesses by developing cutting-edge web and mobile applications, and providing comprehensive training to help freshers and students kickstart their careers in the IT industry.
+        </p>
+      </section>
+
+      {/* Services Section */}
+      <section className="mb-12">
+        <h2 className="text-3xl font-bold text-indigo-600 mb-6">What We Do</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="p-6 bg-blue-100 rounded-lg shadow-md">
+            <h3 className="text-2xl font-bold text-blue-600">Web Development</h3>
+            <p className="mt-4 text-gray-700">
+              We craft responsive and high-performing web applications tailored to your business needs.
+            </p>
           </div>
-          <span className="bg-gradient-to-r text-[#b936ec] text-[17px] font-bold  to-[#36045a] inline-block text-transparent bg-clip-text mt-[10px] md:w-[70%]">Experience the innovation of our app, where seamless organization, constant connectivity, and a competitive edge in the business world are at your fingertips, empowering you to stay ahead of the curve.</span>
+          <div className="p-6 bg-purple-100 rounded-lg shadow-md">
+            <h3 className="text-2xl font-bold text-purple-600">Mobile App Development</h3>
+            <p className="mt-4 text-gray-700">
+              Our team creates intuitive mobile apps that offer seamless user experiences across all devices.
+            </p>
+          </div>
+          <div className="p-6 bg-green-100 rounded-lg shadow-md">
+            <h3 className="text-2xl font-bold text-green-600">IT Training Programs</h3>
+            <p className="mt-4 text-gray-700">
+              We offer internships and training in MERN stack, Java full stack, Python full stack, digital marketing, C, and C++ to equip students and freshers with the skills needed in the IT industry.
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="max-w-7xl mx-auto py-3 px-4 lg:py-16 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-2xl text-[#b936ec] sm:text-4xl font-bold uppercase">Join With Us</h2>
-        <div className="md:mt-4 text-lg text-gray-600 sm:w-[70%] mx-auto font-serif">
-          Join our innovative startup in the local search engine industry today and be a part of a game-changing project that empowers everyone to create their own appsite. We're seeking passionate individuals who want to make a difference in the world of technology. Come and join us to revolutionize the way people connect with local businesses!
+      </section>
+
+      {/* Team Section */}
+      <section>
+        {/* <h2 className="text-3xl font-bold text-indigo-600 mb-6">Meet Our Team</h2> */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="text-center">
+            <img
+              src="/1.png"
+              alt="Team Member 1"
+              width={200}
+              height={200}
+              className="rounded-full mx-auto"
+            />
+            <h3 className="text-xl font-bold text-gray-800 mt-4"></h3>
+            {/* <p className="text-gray-600">Founder & CEO</p> */}
+          </div>
+          <div className="text-center">
+            <img
+              src="/2.png"
+              alt="Team Member 2"
+              width={200}
+              height={200}
+              className="rounded-full mx-auto bg-cover"
+            />
+            <h3 className="text-xl font-bold text-gray-800 mt-4"></h3>
+            {/* <p className="text-gray-600">CTO & Lead Developer</p> */}
+          </div>
+          <div className="text-center">
+            <img
+              src="/3.png"
+              alt="Team Member 3"
+              width={200}
+              height={200}
+              className="rounded-full mx-auto bg-contain"
+            />
+            <h3 className="text-xl font-bold text-gray-800 mt-4"></h3>
+            {/* <p className="text-gray-600">Head of Marketing</p> */}
+          </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

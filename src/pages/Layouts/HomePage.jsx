@@ -15,24 +15,26 @@ const HomePage=()=>{
          <Carousel/>
          <div className="w-[100%] md:w-[90%] mx-auto">
   <div className="flex flex-wrap justify-center">
-    <div className="w-[90%] md:w-64 p-6 m-4 rounded-lg shadow-md hover:scale-105 duration-500 bg-[#b936ec] text-[#ffffff]">
-      <h2 className="text-xl font-bold text-[#ffffff]">Learn Full Stack Development</h2>
+    <div className="w-[90%] md:w-64 p-6 m-4 rounded-lg shadow-md hover:scale-105 duration-500 bg-purple-200 text-gray-800">
+      <h2 className="text-xl font-bold text-purple-600">Learn Full Stack Development</h2>
       <p>Start your journey to becoming a full stack developer!</p>
     </div>
-    <div className="w-[90%] md:w-64 p-6 m-4 rounded-lg shadow-md hover:scale-105 duration-500 bg-[#c7f745] text-[#7b8a54]">
-      <h2 className="text-xl font-bold text-[#3c9126]">Mobile App Development</h2>
+    <div className="w-[90%] md:w-64 p-6 m-4 rounded-lg shadow-md hover:scale-105 duration-500 bg-yellow-200 text-gray-800">
+      <h2 className="text-xl font-bold text-yellow-600">Mobile App Development</h2>
       <p>Explore the world of mobile app development!</p>
     </div>
-    <div className="w-[90%] md:w-64 p-6 m-4 rounded-lg shadow-md hover:scale-105 duration-500 bg-[#6ae8f1] text-[#386669]">
-      <h2 className="text-xl font-bold text-[#2c748a]">Real-time Projects</h2>
+    <div className="w-[90%] md:w-64 p-6 m-4 rounded-lg shadow-md hover:scale-105 duration-500 bg-indigo-200 text-gray-800">
+      <h2 className="text-xl font-bold text-indigo-600">Real-time Projects</h2>
       <p>Learn frontend, backend, and database technologies through real-time projects.</p>
-    </div>
-    <div className="w-[90%] md:w-64 p-6 m-4 rounded-lg shadow-md hover:scale-105 duration-500 bg-[#f77a45] text-[#ffffff]">
-      <h2 className="text-xl font-bold text-[#ffffff]">Career Growth</h2>
+    </div> 
+    <div className="w-[90%] md:w-64 p-6 m-4 rounded-lg shadow-md hover:scale-105 duration-500 bg-green-200 text-gray-800">
+      <h2 className="text-xl font-bold text-green-600">Career Growth</h2>
       <p>Advance your career with hands-on experience and expert guidance.</p>
     </div>
   </div>
 </div>
+
+
 
  
         {/* <FlexPageCards/> */}
