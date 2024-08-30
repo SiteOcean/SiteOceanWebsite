@@ -10,7 +10,7 @@ const HomePage=()=>{
 
     return (<div className="w-[100%] bg-white">
 
-         <NavBar/>
+         <NavBar />
          <div className="bg-gradient-to-r from-white via-slate-50 to-green-50">
          <Carousel/>
          <div className="w-[100%] md:w-[90%] mx-auto">
