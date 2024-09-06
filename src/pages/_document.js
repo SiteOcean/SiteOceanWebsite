@@ -12,6 +12,9 @@ export default function Document() {
             name="description"
             content="Discover the best local businesses, services, and attractions near you with our powerful local search engine."
           />
+                  {/* Set the theme color for mobile status bar */}
+        <meta name="theme-color" content="#2ab3c5" />
+
       <body>
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1951666009365713"
      crossOrigin="anonymous"></script>

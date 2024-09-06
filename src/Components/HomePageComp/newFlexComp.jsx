@@ -11,40 +11,40 @@ const NewFlexSection = () => {
    <div className=' text-[19px] text-gray-600'>
      <div className="flex flex-col-reverse sm:flex-row justify-center md:h-[90vh] items-center ">
       <div  className="w-full lg:w-1/2 px-4 py-4 flex flex-col justify-center align-middle">
-        {/* <h1 className="text-3xl font-bold mb-2">Section Title</h1> */}
-        <p data-aos="fade-zoom-in" className=" font-serif sm:w-[70%] mx-auto mb-4">Learn the MERN stack: MongoDB, Express.js, React, and Node.js - a complete JavaScript-based toolkit for building full-stack web applications.</p>
+        <h1 className="text-xl font-bold sm:w-[70%] mb-2 mx-auto">Learn Programming Languages to Launch Your Career in the IT Industry:</h1>
+        <p data-aos="fade-zoom-in" className=" font-serif sm:w-[70%] mx-auto mb-4">Unlock your potential with our specialized programming training. Gain practical skills in key programming languages and get ready to excel in the IT industry. Our focused training sessions are designed to equip you with the essential knowledge and hands-on experience needed to thrive in the tech world.</p>
        
       </div>
 
       <div data-aos="fade-up" className="w-full lg:w-1/2 px-4 py-4 bg-white"
       >
-      <img src={"/TamilIllustrativeYoutubeThumbnail.png"} width={300} height={120} alt='img' priority className='w-full  h-[360px] sm:h-[390px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
+      <img src={"/searchbarDesign.png"} width={300} height={120} alt='img' priority={true} className='w-full  h-[360px] sm:h-[390px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
       </div>
       
     </div>
 
     <div className="flex flex-col-reverse sm:flex-row-reverse justify-center md:h-[90vh] items-center">    
       <div  className="w-full lg:w-1/2 px-4 py-4 flex flex-col justify-center align-middle">
-        {/* <h1 className="text-3xl font-bold mb-2">Section Title</h1> */}
-        <p data-aos="fade-zoom-in" className=" font-serif sm:w-[70%] mx-auto mb-4">Learn mobile app development with React Native, utilizing its versatility to craft dynamic applications for iOS and Android. Seamlessly integrate backend languages like Node.js or Python for robust functionality. Master the art of cross-platform development and bring your ideas to life.</p>
+        <h1 className="text-xl sm:w-[70%] mx-auto  font-bold mb-2">Comprehensive Full-Stack Training: Master Frontend, Backend, Database, and Cloud Deployment:</h1>
+        <p data-aos="fade-zoom-in" className=" font-serif sm:w-[70%] mx-auto mb-4">Our full-stack training covers essential skills in frontend development, backend programming, database management, and cloud deployment. Gain practical experience in creating dynamic web applications, managing data efficiently, and deploying solutions to the cloud. Get ready to become a versatile developer with the expertise needed for today's tech landscape.</p>
       
       </div>
 
       <div data-aos="fade-up"  className="w-full lg:w-1/2 px-4 py-4">
-      <img src={"/PinkInsta.png"} width={300} height={120} alt='img' priority className='w-full  h-[360px] sm:h-[390px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
+      <img src={"/PinkInsta.png"} width={300} height={120} alt='img' priority={true} className='w-full  h-[360px] sm:h-[390px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
       </div>
       
     </div>
 
     <div className="flex flex-col-reverse sm:flex-row justify-center md:h-[90vh] items-center">
       <div className="w-full lg:w-1/2 px-4 py-4 flex flex-col justify-center align-middle">
-        {/* <h1 className="text-3xl font-bold mb-2">Section Title</h1> */}
-        <p data-aos="fade-zoom-in" className=" font-serif sm:w-[70%] mx-auto  mb-4">Learn Real-Time Web Development with React.js for dynamic user interfaces, Next.js for server-rendered applications, React Native for cross-platform mobile development, Node.js for scalable backend solutions, and MongoDB for flexible NoSQL database management. Dive into hands-on projects to master these technologies and create responsive, real-time web applications.</p>
+        <h1 className="text-xl sm:w-[70%] mx-auto font-bold mb-2">Affordable Full-Stack Training: Real-Time Projects, Expert Guidance, and Job Assistance:</h1>
+        <p data-aos="fade-zoom-in" className=" font-serif sm:w-[70%] mx-auto  mb-4">Our specialized full-stack training offers hands-on experience with real-time projects, guided by experienced developers, all at a competitive fee. Benefit from certified training designed to equip you with practical skills and industry knowledge. Additionally, we provide job assistance to help you transition smoothly into the tech industry, ensuring you’re well-prepared for your next career move.</p>
 
       </div>
 
       <div  data-aos="fade-up" className="w-full lg:w-1/2 px-4 py-4">
-      <img src={"/OnlineVoilet.png"} width={300} height={120} alt='img' priority className='w-full  h-[360px] sm:h-[390px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
+      <img src={"/online.png"} width={300} height={120} alt='img' priority={true} className='w-full  h-[360px] sm:h-[390px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
       </div>
       
     </div>

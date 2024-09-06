@@ -1,6 +1,6 @@
-import Carousel from "@/Components/Carousel"
-import FlexSection from "@/Components/HomePageComp/FlexComp"
-import FlexPageCards from "@/Components/HomePageComp/FlexPageCards"
+
+import HomeBanner from "@/Components/HomePageComp/banner"
+import CardSection from "@/Components/HomePageComp/cardSectionBanner"
 import NewFlexSection from "@/Components/HomePageComp/newFlexComp"
 
 const { default: NavBar } = require("@/Components/NavBar")
@@ -11,34 +11,9 @@ const HomePage=()=>{
     return (<div className="w-[100%] bg-white">
 
          <NavBar />
-         <div className="bg-gradient-to-r from-white via-slate-50 to-green-50">
-         <Carousel/>
-         <div className="w-[100%] md:w-[90%] mx-auto">
-  <div className="flex flex-wrap justify-center">
-    <div className="w-[90%] md:w-64 p-6 m-4 rounded-lg shadow-md hover:scale-105 duration-500 bg-purple-200 text-gray-800">
-      <h2 className="text-xl font-bold text-purple-600">Learn Full Stack Development</h2>
-      <p>Start your journey to becoming a full stack developer!</p>
-    </div>
-    <div className="w-[90%] md:w-64 p-6 m-4 rounded-lg shadow-md hover:scale-105 duration-500 bg-yellow-200 text-gray-800">
-      <h2 className="text-xl font-bold text-yellow-600">Mobile App Development</h2>
-      <p>Explore the world of mobile app development!</p>
-    </div>
-    <div className="w-[90%] md:w-64 p-6 m-4 rounded-lg shadow-md hover:scale-105 duration-500 bg-indigo-200 text-gray-800">
-      <h2 className="text-xl font-bold text-indigo-600">Real-time Projects</h2>
-      <p>Learn frontend, backend, and database technologies through real-time projects.</p>
-    </div> 
-    <div className="w-[90%] md:w-64 p-6 m-4 rounded-lg shadow-md hover:scale-105 duration-500 bg-green-200 text-gray-800">
-      <h2 className="text-xl font-bold text-green-600">Career Growth</h2>
-      <p>Advance your career with hands-on experience and expert guidance.</p>
-    </div>
-  </div>
-</div>
-
-
-
- 
-        {/* <FlexPageCards/> */}
-        {/* <FlexSection/> */}
+         <div className="bg-gradient-to-r from-white via-purple-50 to-purple-50">
+         <HomeBanner/>
+        <CardSection/>
         <NewFlexSection/>     
         
     </div>
@@ -46,19 +21,19 @@ const HomePage=()=>{
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-5">
           
-          <div className="bg-gradient-to-r from-blue-100 relative to-[#b936ec] h-64 w-full pl-12 pt-12">
-              <span className="absolute h-12 w-12 border border-[#b936ec] bottom-2 left-6 rounded-full"></span>
+          <div className="bg-gradient-to-r from-blue-100 relative to-[#2ab3c5] h-64 w-full pl-12 pt-12">
+              <span className="absolute h-12 w-12 border border-[#2ab3c5] bottom-2 left-6 rounded-full"></span>
               <span className="absolute h-[80px] w-[80px] border border-[#74f8f1] top-3 right-6 rounded-full"></span>
               <h1 className="underline text-[white] font-semibold">Frontend Development</h1>
               <p className="mt-6 text-[20px] font-bold text-gray-600 pr-3">Craft stunning, responsive interfaces with our expert Frontend Development.</p>
             </div>
-            <div className="bg-gradient-to-r from-[#b936ec] relative to-indigo-100 h-64 w-full pl-12 pt-12">
-              <span className="absolute h-[70px] w-[70px] border border-[#b936ec] bottom-3 right-6 rounded-full"></span>
+            <div className="bg-gradient-to-r from-[#2ab3c5] relative to-indigo-100 h-64 w-full pl-12 pt-12">
+              <span className="absolute h-[70px] w-[70px] border border-[#2ab3c5] bottom-3 right-6 rounded-full"></span>
               <span className="absolute h-[50px] w-[50px] border border-[#74f8f1] top-1 left-1 rounded-full"></span>
               <h1 className="underline text-[white] font-semibold">Mobile App Development</h1>
               <p className="mt-6 text-[20px] font-bold text-blue-50 pr-3">Create versatile mobile applications with our in-depth Hybrid Mobile App Development.</p>
             </div>
-            <div className="bg-gradient-to-r from-[#b936ec] to-blue-100 relative h-64 w-full pl-12 pt-12">
+            <div className="bg-gradient-to-r from-[#2ab3c5] to-blue-100 relative h-64 w-full pl-12 pt-12">
               <span className="absolute h-12 w-12 border border-[#74f8f1] bottom-2 left-6 rounded-full"></span>
               <span className="absolute h-[80px] w-[80px] border border-[#99a0a0] top-3 right-6 rounded-full"></span>
               <h1 className="underline text-[white] font-semibold">Backend Development </h1>

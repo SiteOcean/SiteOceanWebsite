@@ -5,14 +5,14 @@ const Banner = () => {
     <div className="w-[100%] md:w-[90%] mx-auto py-12">
       {/* Introduction Section */}
       <section className="text-center mb-12">
-        <h1 className="text-2xl md:text-4xl font-bold text-[#b936ec]">About Siteocean Pvt Ltd</h1>
+        <h1 className="text-2xl md:text-4xl font-bold text-[#2ab3c5]">About Siteocean Pvt Ltd</h1>
         <p className="text-lg mt-4 text-gray-600">
           At Siteocean Pvt Ltd, we are dedicated to creating innovative digital solutions and empowering the next generation of IT professionals.
         </p>
       </section>
 
       {/* Mission Statement Section */}
-      <section className="bg-gradient-to-r from-[#b936ec] to-purple-500 p-8 text-white rounded-lg shadow-lg mb-12">
+      <section className="bg-gradient-to-r from-[#2ab3c5] to-purple-500 p-8 text-white rounded-lg shadow-lg mb-12">
         <h2 className="text-3xl font-bold">Our Mission</h2>
         <p className="mt-4">
           Our mission is to bridge the gap between technology and businesses by developing cutting-edge web and mobile applications, and providing comprehensive training to help freshers and students kickstart their careers in the IT industry.
@@ -50,33 +50,36 @@ const Banner = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="text-center">
             <img
-              src="/1.png"
+              src="/learningNeverEnds.png"
               alt="Team Member 1"
               width={200}
               height={200}
-              className="rounded-full mx-auto"
+              className="rounded-full mx-auto "
+              priority={true}
             />
             <h3 className="text-xl font-bold text-gray-800 mt-4"></h3>
             {/* <p className="text-gray-600">Founder & CEO</p> */}
           </div>
           <div className="text-center">
             <img
-              src="/2.png"
+              src="/frontend.png"
               alt="Team Member 2"
               width={200}
               height={200}
-              className="rounded-full mx-auto bg-cover"
+              className="rounded-full mx-auto bg-contain"
+              priority={true}
             />
             <h3 className="text-xl font-bold text-gray-800 mt-4"></h3>
             {/* <p className="text-gray-600">CTO & Lead Developer</p> */}
           </div>
           <div className="text-center">
             <img
-              src="/3.png"
+              src="/backendDevImg.png"
               alt="Team Member 3"
               width={200}
               height={200}
               className="rounded-full mx-auto bg-contain"
+              priority={true}
             />
             <h3 className="text-xl font-bold text-gray-800 mt-4"></h3>
             {/* <p className="text-gray-600">Head of Marketing</p> */}
