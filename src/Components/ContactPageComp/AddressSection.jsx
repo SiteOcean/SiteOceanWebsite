@@ -11,25 +11,25 @@ const AddressSection = () => {
       <div className="sm:max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex flex-col space-y-3 mb-2 text-gray-600">
               <div>
-              <h3 className="text-xl font-bold mb-2 text-[#2ab3c5] underline underline-offset-4">Company</h3>
+              <h3 className="text-xl font-bold mb-2 text-[#59d7e7] underline underline-offset-4">Company</h3>
               <p className="text-gray-700 font-serif lg:w-[50%]">Site Ocean Private Limited</p>
               </div> 
               <div>
-            <h3 className="text-xl font-bold mb-1 text-[#2ab3c5]  underline underline-offset-4">Office Address</h3>
+            <h3 className="text-xl font-bold mb-1 text-[#59d7e7]  underline underline-offset-4">Office Address</h3>
             <p className="text-gray-700 font-serif lg:w-[50%] capitalize">2nd floor, iswarya complex, nethaji rd, pappanaickenpalayam, coimbatore, tamilNadu.<br />641037</p>
           </div>
           <div>
-            <h3 className="text-xl font-bold mb-1 text-[#2ab3c5]  underline underline-offset-4">Registered Office Address</h3>
+            <h3 className="text-xl font-bold mb-1 text-[#59d7e7]  underline underline-offset-4">Registered Office Address</h3>
             <p className="text-gray-700 font-serif lg:w-[50%]">No. 40/1 & 41/2, Nehru Garden, Dr. A.P.J. AbdulKalam-Block, Nehru Arts & Science College, Madhukarai, Thirumalayampalayam <br />Coimbatore,TamilNadu.<br/>PinCode : 641105</p>
           
           </div>
 
             <div>
-              <h3 className="text-xl font-bold space-y-2 text-[#2ab3c5]  underline underline-offset-4">Mobile</h3>
+              <h3 className="text-xl font-bold space-y-2 text-[#59d7e7]  underline underline-offset-4">Mobile</h3>
               <p className="font-semibold text-[#5f5c5c]">+91 - 8122183129</p>
               </div> 
             <div>
-              <h3 className="text-xl font-bold mb-2 space-y-2 text-[#2ab3c5]  underline underline-offset-4">Email</h3>
+              <h3 className="text-xl font-bold mb-2 space-y-2 text-[#59d7e7]  underline underline-offset-4">Email</h3>
               <p className=" underline text-[#4fc8e6]">info@siteocean.in</p>
               </div>   
             </div>

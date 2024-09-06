@@ -3,7 +3,7 @@ import React from 'react';
 
 const CardSection = () => {
   return (
-    <section className="bg-[#2ab3c5] py-12">
+    <section className="bg-[#59d7e7] py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-gray-50 sm:text-4xl">
