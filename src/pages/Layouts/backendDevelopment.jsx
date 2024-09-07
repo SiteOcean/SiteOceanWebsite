@@ -6,13 +6,13 @@ export default function BackendDev (){
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white shadow-lg rounded-md overflow-hidden">
             <img
-              className="w-full h-72 object-cover"
-              src="/images/backend.jpg" // Replace with your image path
+              className="w-full h-[300px] object-cover"
+              src="/backendPageImg.png" // Replace with your image path
               alt="Backend Development"
               priority={true}
             />
             <div className="p-8">
-              <h2 className="text-4xl font-extrabold text-gray-900">
+              <h2 className="text-4xl font-extrabold text-[#2c9aa8]">
                 Backend Development
               </h2>
               <p className="mt-4 text-gray-600 text-lg">
@@ -21,7 +21,7 @@ export default function BackendDev (){
               <p className="mt-4 text-gray-600 text-lg">
                 You’ll start by understanding how to create a RESTful API, handle HTTP requests, manage data through databases, and implement security best practices. Learn how backend services communicate with frontend applications and how you can build flexible, scalable systems.
               </p>
-              <h3 className="text-2xl font-bold text-gray-900 mt-6">Technologies and Tools:</h3>
+              <h3 className="text-2xl font-bold text-[#2c9aa8] mt-6">Technologies and Tools:</h3>
               <ul className="list-disc ml-6 mt-2 text-gray-600">
                 <li>Node.js for building fast, scalable server-side applications.</li>
                 <li>Express.js for creating APIs and handling routing.</li>

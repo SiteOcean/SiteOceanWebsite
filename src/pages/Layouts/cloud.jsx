@@ -6,13 +6,13 @@ export default function CloudDev (){
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white shadow-lg rounded-md overflow-hidden">
             <img
-              className="w-full h-72 object-cover"
-              src="/images/cloud.jpg" // Replace with your image path
+              className="w-full h-[300px] object-fill"
+              src="/cloudPageImg.png" // Replace with your image path
               alt="Cloud Development"
               priority={true}
             />
             <div className="p-8">
-              <h2 className="text-4xl font-extrabold text-gray-900">
+              <h2 className="text-4xl font-extrabold text-[#2c9aa8]">
                 Cloud Development
               </h2>
               <p className="mt-4 text-gray-600 text-lg">
@@ -21,7 +21,7 @@ export default function CloudDev (){
               <p className="mt-4 text-gray-600 text-lg">
                 This course covers the basics of cloud infrastructure, serverless computing, containerization with Docker, and the use of CI/CD pipelines to automate deployments. You’ll also learn how to monitor and scale applications in real-time to meet the demands of your users.
               </p>
-              <h3 className="text-2xl font-bold text-gray-900 mt-6">Technologies and Tools:</h3>
+              <h3 className="text-2xl font-bold text-[#2c9aa8] mt-6">Technologies and Tools:</h3>
               <ul className="list-disc ml-6 mt-2 text-gray-600">
                 <li>AWS, Google Cloud, and Azure for cloud infrastructure and services.</li>
                 <li>Docker for containerization and application deployment.</li>

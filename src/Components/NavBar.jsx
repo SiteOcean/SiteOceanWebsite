@@ -74,20 +74,20 @@ const NavBar = () => {
             </div>
             {/* <span className='hidden sm:block w-[150px]'></span> */}
 
-            {isMenuOpen ? <div id='nav' className={`md:hidden border-t fixed transform-gpu transition-all text-center opacity-95 -z-10 left-0 min-h-[200px] font-bold right-0 py-3 duration-1500 bg-[#59d7e7] text-[white]  ${isMenuOpen ? "translate-y-12 top-2" : "translate-y-12 -top-[250px]"}`}>
+          <div id='nav' className={` md:hidden border-t fixed transform-gpu transition-all text-center opacity-95 -z-10 left-0  font-bold right-0 py-2 duration-700 bg-[#59d7e7] text-[white]  ${isMenuOpen ? "translate-y-12 top-2" : "translate-y-12 -top-[250px]"}`}>
 
               <div className="flex flex-col space-y-6 font-serif">
-              <Link href="/" className=''>
+              <Link href="/" className={`${router.pathname === "/" ? "underline underline-offset-2" : ""}`}>
                   <span style={{fontWeight:router.pathname === "/" ? "bold" : "normal"}} className=" md:hover:bg-gray-200 hover:text-[white] px-3 py-2 rounded-md ">Home</span>
                 </Link>
-                <Link href="/Layouts/AboutPage">
+                <Link href="/Layouts/AboutPage" className={`${router.pathname === "/Layouts/AboutPage" ? "underline underline-offset-2" : ""}`}>
                   <span style={{fontWeight:router.pathname === "/Layouts/AboutPage" ? "bold" : "normal"}} className=" md:hover:bg-gray-200 hover:text-[white] px-3 py-2 rounded-md ">About</span>
                 </Link>
-                <Link href="/Layouts/ContactPage">
+                <Link href="/Layouts/ContactPage" className={`${router.pathname === "/Layouts/ContactPage" ? "underline underline-offset-2" : ""}`}>
                   <span style={{fontWeight:router.pathname === "/Layouts/ContactPage" ? "bold" : "normal"}} className=" md:hover:bg-gray-200 hover:text-[white] px-3 py-2 rounded-md ">Contact</span>
                 </Link>
               </div>
-            </div> : null}
+            </div> 
           </div>
         </div>
       </div>

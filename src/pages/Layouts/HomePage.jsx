@@ -5,8 +5,13 @@ import NewFlexSection from "@/Components/HomePageComp/newFlexComp"
 
 const { default: NavBar } = require("@/Components/NavBar")
 const { default: Footer } = require("@/Components/Footer")
+import { FaWhatsappSquare } from "react-icons/fa";
 
 const HomePage=()=>{
+
+    const handleWhatsAppRedirect = () => {
+        window.open('https://wa.me/8122183129?text=Hi, ', '_blank');
+      };
 
     return (<div className="w-[100%] bg-white">
 
@@ -25,7 +30,7 @@ const HomePage=()=>{
               <span className="absolute h-12 w-12 border border-[#59d7e7] bottom-2 left-6 rounded-full"></span>
               <span className="absolute h-[80px] w-[80px] border border-[#74f8f1] top-3 right-6 rounded-full"></span>
               <h1 className="underline text-[white] font-semibold">Frontend Development</h1>
-              <p className="mt-6 text-[20px] font-bold text-gray-600 pr-3">Craft stunning, responsive interfaces with our expert Frontend Development.</p>
+              <p className="mt-6 text-[20px] font-bold text-gray-600 pr-3 z-30">Craft stunning, responsive interfaces with our expert Frontend Development.</p>
             </div>
             <div className="bg-gradient-to-r from-[#59d7e7] relative to-indigo-100 h-64 w-full pl-12 pt-12">
               <span className="absolute h-[70px] w-[70px] border border-[#59d7e7] bottom-3 right-6 rounded-full"></span>
@@ -34,13 +39,16 @@ const HomePage=()=>{
               <p className="mt-6 text-[20px] font-bold text-blue-50 pr-3">Create versatile mobile applications with our in-depth Hybrid Mobile App Development.</p>
             </div>
             <div className="bg-gradient-to-r from-[#59d7e7] to-blue-100 relative h-64 w-full pl-12 pt-12">
-              <span className="absolute h-12 w-12 border border-[#74f8f1] bottom-2 left-6 rounded-full"></span>
-              <span className="absolute h-[80px] w-[80px] border border-[#99a0a0] top-3 right-6 rounded-full"></span>
+              <span className="absolute h-12 w-12 z-0 border border-[#74f8f1] bottom-1 sm:bottom-2 left-1 sm:left-6 rounded-full"></span>
+              <span className="absolute h-[80px] z-0 w-[80px] border border-[#99a0a0] top-3 right-6 rounded-full"></span>
               <h1 className="underline text-[white] font-semibold">Backend Development </h1>
-              <p className="mt-6 text-[20px] font-bold text-gray-600 pr-3">Build robust, scalable server-side applications with our comprehensive Backend Development.</p>
+              <p className="mt-6 text-[20px] font-bold text-gray-600 pr-3 z-50">Build robust, scalable server-side applications with our comprehensive Backend Development.</p>
             </div>
   
       </div>
+      <FaWhatsappSquare
+      onClick={handleWhatsAppRedirect}
+       className={'fixed top-[46%] animate-bounce right-2 sm:right-6 text-[#34db80] bg-white text-[50px] rounded-md cursor-pointer'}/>
     <Footer/>
     </div>)
 }
