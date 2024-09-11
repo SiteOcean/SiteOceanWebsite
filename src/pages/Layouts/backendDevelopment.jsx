@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function BackendDev (){
 
-    return(<div className="bg-[#59d7e7] py-12">
+    return(<div className="bg-gradient-to-r from-[#44d0e2] via-[#59d7e7]  to-purple-400 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white shadow-lg rounded-md overflow-hidden">
             <img

@@ -1,5 +1,6 @@
 
 import HomeBanner from "@/Components/HomePageComp/banner"
+import BannerByRaji from "@/Components/HomePageComp/bannerByRaji"
 import CardSection from "@/Components/HomePageComp/cardSectionBanner"
 import NewFlexSection from "@/Components/HomePageComp/newFlexComp"
 
@@ -17,7 +18,8 @@ const HomePage=()=>{
 
          <NavBar />
          <div className="bg-gradient-to-r from-white via-purple-50 to-purple-50">
-         <HomeBanner/>
+         {/* <HomeBanner/> */}
+         <BannerByRaji/>
         <CardSection/>
         <NewFlexSection/>     
         
@@ -26,23 +28,26 @@ const HomePage=()=>{
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-5">
           
-          <div className="bg-gradient-to-r from-blue-100 relative to-[#59d7e7] h-64 w-full pl-12 pt-12">
-              <span className="absolute h-12 w-12 border border-[#59d7e7] bottom-2 left-6 rounded-full"></span>
-              <span className="absolute h-[80px] w-[80px] border border-[#74f8f1] top-3 right-6 rounded-full"></span>
+          
+            <div className="bg-gradient-to-r from-[#44d0e2] via-[#59d7e7]  to-purple-400 relative h-64 w-full pl-12 pt-12">
+              <span className="absolute h-12 w-12 border border-[#9ee4e4] bottom-1 sm:bottom-2 left-1 sm:left-6 rounded-full"></span>
+              <span className="absolute h-[80px]  w-[80px] border border-[#9fe9e9] top-3 right-1 md:right-6 rounded-full"></span>
               <h1 className="underline text-[white] font-semibold">Frontend Development</h1>
-              <p className="mt-6 text-[20px] font-bold text-gray-600 pr-3 z-30">Craft stunning, responsive interfaces with our expert Frontend Development.</p>
+              <p className="mt-6 text-[20px] font-bold text-white pr-3 ">Craft stunning, responsive interfaces with our expert Frontend Development.</p>
             </div>
-            <div className="bg-gradient-to-r from-[#59d7e7] relative to-indigo-100 h-64 w-full pl-12 pt-12">
-              <span className="absolute h-[70px] w-[70px] border border-[#59d7e7] bottom-3 right-6 rounded-full"></span>
-              <span className="absolute h-[50px] w-[50px] border border-[#74f8f1] top-1 left-1 rounded-full"></span>
+
+
+            <div className="bg-gradient-to-r from-purple-400 via-[#59d7e7]  to-[#44d0e2] h-64 w-full pl-12 pt-12">
+              <span className="absolute h-[70px]  w-[70px] border border-[#3a3d3d] bottom-3 right-6 rounded-full"></span>
+              <span className="absolute h-[50px] w-[50px] border border-[#5b6161] top-1 left-1 rounded-full"></span>
               <h1 className="underline text-[white] font-semibold">Mobile App Development</h1>
               <p className="mt-6 text-[20px] font-bold text-blue-50 pr-3">Create versatile mobile applications with our in-depth Hybrid Mobile App Development.</p>
             </div>
-            <div className="bg-gradient-to-r from-[#59d7e7] to-blue-100 relative h-64 w-full pl-12 pt-12">
-              <span className="absolute h-12 w-12 z-0 border border-[#74f8f1] bottom-1 sm:bottom-2 left-1 sm:left-6 rounded-full"></span>
-              <span className="absolute h-[80px] z-0 w-[80px] border border-[#99a0a0] top-3 right-6 rounded-full"></span>
+            <div className="bg-gradient-to-r from-[#44d0e2] via-[#59d7e7]  to-purple-400 relative h-64 w-full pl-12 pt-12">
+              <span className="absolute h-12 w-12 border border-[#9ee4e4] bottom-1 sm:bottom-2 left-1 sm:left-6 rounded-full"></span>
+              <span className="absolute h-[80px]  w-[80px] border border-[#9fe9e9] top-3 right-1 md:right-6  rounded-full"></span>
               <h1 className="underline text-[white] font-semibold">Backend Development </h1>
-              <p className="mt-6 text-[20px] font-bold text-gray-600 pr-3 z-50">Build robust, scalable server-side applications with our comprehensive Backend Development.</p>
+              <p className="mt-6 text-[20px] font-bold  text-white pr-3 ">Build robust, scalable server-side applications with our comprehensive Backend Development.</p>
             </div>
   
       </div>

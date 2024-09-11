@@ -1,10 +1,5 @@
 import React from 'react'
-import Img from '../../images/TechLady.jpg'
-import Image from 'next/image'
 
-import Img1 from '../../images/TabTouch.jpg'
-import Img2 from '../../images/WorkingLady.jpg'
-import Img3 from '../../images/MobileInHand.jpg'
 
 const NewFlexSection = () => {
   return (
@@ -18,7 +13,7 @@ const NewFlexSection = () => {
 
       <div data-aos="fade-up" className="w-full lg:w-1/2 px-4 py-4 bg-white"
       >
-      <img src={"/searchbarDesign.png"} width={300} height={120} alt='img' priority={true} className='w-full  h-[360px] sm:h-[390px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
+      <img src={"/searchbarDesign.png"} width={300} height={120} alt='img' priority={true} className='w-full  h-[360px] sm:h-[410px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
       </div>
       
     </div>
@@ -31,7 +26,7 @@ const NewFlexSection = () => {
       </div>
 
       <div data-aos="fade-up"  className="w-full lg:w-1/2 px-4 py-4">
-      <img src={"/PinkInsta.png"} width={300} height={120} alt='img' priority={true} className='w-full  h-[360px] sm:h-[390px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
+      <img src={"/PinkInsta.png"} width={300} height={120} alt='img' priority={true} className='w-full  h-[360px] sm:h-[410px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
       </div>
       
     </div>
@@ -44,7 +39,7 @@ const NewFlexSection = () => {
       </div>
 
       <div  data-aos="fade-up" className="w-full lg:w-1/2 px-4 py-4">
-      <img src={"/Online.png"} width={300} height={120} alt='img' priority={true} className='w-full  h-[360px] sm:h-[390px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
+      <img src={"/Online.png"} width={300} height={120} alt='img' priority={true} className='w-full  h-[360px] sm:h-[410px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
       </div>
       
     </div>

@@ -3,7 +3,7 @@ import React from 'react';
 
 const CardSection = () => {
   return (
-    <section className="bg-[#59d7e7] py-12">
+    <section className="bg-gradient-to-r from-[#44d0e2] via-[#59d7e7]  to-purple-400 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-gray-50 sm:text-4xl">
@@ -17,7 +17,7 @@ const CardSection = () => {
           {/* Card 1 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
-              className="w-full h-48 md:h-[230px] "
+              className="w-full h-48 md:h-[250px] "
               src="/frontendDevImg.png" // Replace with your image path
               alt="Full Stack Development"
               priority={true}
@@ -41,7 +41,7 @@ const CardSection = () => {
           {/* Card 2 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
-              className="w-full h-48 md:h-[230px]"
+              className="w-full h-48 md:h-[250px]"
               src="/backendDevImg.png" // Replace with your image path
               alt="Backend Development"
               priority={true}
@@ -65,7 +65,7 @@ const CardSection = () => {
           {/* Card 3 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
   <img
-    className="w-full h-48"
+    className="w-full h-48 md:h-[250px]"
     src="/cloudDevImg.png" // Replace with your image path
     alt="Cloud"
     priority={true}

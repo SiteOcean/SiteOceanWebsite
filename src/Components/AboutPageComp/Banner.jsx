@@ -5,7 +5,7 @@ const Banner = () => {
     <div className="w-[100%] md:w-[90%] mx-auto py-12">
       {/* Introduction Section */}
       <section className="text-center mb-12">
-        <h1 className="text-2xl md:text-4xl font-bold text-[#59d7e7]">About Siteocean Pvt Ltd</h1>
+        <h1 className="text-2xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#43d7eb] via-[#59d7e7] to-purple-500">About Siteocean Pvt Ltd</h1>
         <p className="text-lg mt-4 text-gray-600">
           At Siteocean Pvt Ltd, we are dedicated to creating innovative digital solutions and empowering the next generation of IT professionals.
         </p>
