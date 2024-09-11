@@ -3,7 +3,7 @@ import React from 'react';
 
 const CardSection = () => {
   return (
-    <section className="bg-gradient-to-r from-[#44d0e2] via-[#59d7e7]  to-purple-400 py-12">
+    <section className="bg-gradient-to-r from-[#44d0e2] via-[#59d7e7]  to-purple-400 py-12 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-gray-50 sm:text-4xl">

@@ -37,9 +37,9 @@ const HomePage=()=>{
             </div>
 
 
-            <div className="bg-gradient-to-r from-purple-400 via-[#59d7e7]  to-[#44d0e2] h-64 w-full pl-12 pt-12">
-              <span className="absolute h-[70px]  w-[70px] border border-[#3a3d3d] bottom-3 right-6 rounded-full"></span>
-              <span className="absolute h-[50px] w-[50px] border border-[#5b6161] top-1 left-1 rounded-full"></span>
+            <div className="bg-gradient-to-r from-purple-400 via-[#59d7e7]  to-[#44d0e2] h-64 w-full pl-12 pt-12 relative">
+              <span className="absolute h-[70px]  w-[70px] border border-[#9ee4e4] bottom-3 right-1 md:right-6 rounded-full"></span>
+              <span className="absolute h-[50px] w-[50px] border border-[#9fe9e9] top-1 left-1 rounded-full"></span>
               <h1 className="underline text-[white] font-semibold">Mobile App Development</h1>
               <p className="mt-6 text-[20px] font-bold text-blue-50 pr-3">Create versatile mobile applications with our in-depth Hybrid Mobile App Development.</p>
             </div>

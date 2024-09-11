@@ -3,7 +3,7 @@ import React from 'react'
 
 const NewFlexSection = () => {
   return (
-   <div className=' text-[19px] text-gray-600'>
+   <div className=' text-[19px] text-gray-600 relative'>
      <div className="flex flex-col-reverse sm:flex-row justify-center md:h-[90vh] items-center ">
       <div  className="w-full lg:w-1/2 px-4 py-4 flex flex-col justify-center align-middle">
         <h1 className="text-xl font-bold sm:w-[70%] mb-2 mx-auto">Learn Programming Languages to Launch Your Career in the IT Industry:</h1>
