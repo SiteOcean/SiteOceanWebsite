@@ -1,5 +1,4 @@
 
-import HomeBanner from "@/Components/HomePageComp/banner"
 import BannerByRaji from "@/Components/HomePageComp/bannerByRaji"
 import CardSection from "@/Components/HomePageComp/cardSectionBanner"
 import NewFlexSection from "@/Components/HomePageComp/newFlexComp"
@@ -18,13 +17,11 @@ const HomePage=()=>{
 
          <NavBar />
          <div className="bg-gradient-to-r from-white via-purple-50 to-purple-50">
-         {/* <HomeBanner/> */}
          <BannerByRaji/>
         <CardSection/>
         <NewFlexSection/>     
         
     </div>
-
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-5">
           

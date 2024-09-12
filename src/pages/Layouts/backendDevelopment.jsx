@@ -6,12 +6,12 @@ export default function BackendDev (){
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white shadow-lg rounded-md overflow-hidden">
             <img
-              className="w-full h-[300px] object-cover"
+              className="w-full h-[400px] "
               src="/backendPageImg.png" // Replace with your image path
               alt="Backend Development"
               priority={true}
             />
-            <div className="p-8">
+            <div className="p-3 md:p-8">
               <h2 className="text-4xl font-extrabold text-[#2c9aa8]">
                 Backend Development
               </h2>

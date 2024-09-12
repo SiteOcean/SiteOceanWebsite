@@ -3,7 +3,7 @@ import React from 'react'
 
 const NewFlexSection = () => {
   return (
-   <div className=' text-[19px] text-gray-600 relative'>
+   <div className=' text-[19px] text-gray-600 relative bg-white'>
      <div className="flex flex-col-reverse sm:flex-row justify-center md:h-[90vh] items-center ">
       <div  className="w-full lg:w-1/2 px-4 py-4 flex flex-col justify-center align-middle">
         <h1 className="text-xl font-bold sm:w-[70%] mb-2 mx-auto">Learn Programming Languages to Launch Your Career in the IT Industry:</h1>
@@ -13,7 +13,8 @@ const NewFlexSection = () => {
 
       <div data-aos="fade-up" className="w-full lg:w-1/2 px-4 py-4 bg-white"
       >
-      <img src={"/searchbarDesign.png"} width={300} height={120} alt='img' priority={true} className='w-full  h-[360px] sm:h-[410px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
+      <img src={"/flexCardOne.png"} width={300} height={120} alt='img' priority={true} className='w-full  h-[360px] sm:h-[410px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
+
       </div>
       
     </div>
@@ -26,7 +27,7 @@ const NewFlexSection = () => {
       </div>
 
       <div data-aos="fade-up"  className="w-full lg:w-1/2 px-4 py-4">
-      <img src={"/PinkInsta.png"} width={300} height={120} alt='img' priority={true} className='w-full  h-[360px] sm:h-[410px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
+      <img src={"/flexCardTwo.png"} width={300} height={120} alt='img' priority={true} className='w-full  h-[360px] sm:h-[410px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
       </div>
       
     </div>
@@ -39,7 +40,7 @@ const NewFlexSection = () => {
       </div>
 
       <div  data-aos="fade-up" className="w-full lg:w-1/2 px-4 py-4">
-      <img src={"/Online.png"} width={300} height={120} alt='img' priority={true} className='w-full  h-[360px] sm:h-[410px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
+      <img src={"/newFlexThree.png"} width={300} height={120} alt='img' priority={true} className='w-full  h-[360px] sm:h-[410px] sm:w-[90%]  mx-auto my-auto rounded-lg'/>
       </div>
       
     </div>

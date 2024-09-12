@@ -17,7 +17,7 @@ const CardSection = () => {
           {/* Card 1 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
-              className="w-full h-48 md:h-[250px] "
+              className="w-full h-[300px] md:h-[280px] "
               src="/frontendDevImg.png" // Replace with your image path
               alt="Full Stack Development"
               priority={true}
@@ -41,7 +41,7 @@ const CardSection = () => {
           {/* Card 2 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
-              className="w-full h-48 md:h-[250px]"
+              className="w-full h-[300px] md:h-[280px]"
               src="/backendDevImg.png" // Replace with your image path
               alt="Backend Development"
               priority={true}
@@ -65,7 +65,7 @@ const CardSection = () => {
           {/* Card 3 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
   <img
-    className="w-full h-48 md:h-[250px]"
+    className="w-full h-[300px] md:h-[280px]"
     src="/cloudDevImg.png" // Replace with your image path
     alt="Cloud"
     priority={true}
