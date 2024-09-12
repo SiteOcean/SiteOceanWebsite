@@ -15,7 +15,7 @@ export default function BannerByRaji (){
           speed={110}
           eraseSpeed={30}
           typingDelay={300}
-          className="text-lg font-bold md:text-3xl bg-clip-text text-transparent bg-gradient-to-r from-indigo-50 via-pink-400 to-violet-50 z-50"
+          className="text-lg font-bold md:text-3xl bg-clip-text text-transparent bg-gradient-to-r from-indigo-50 via-pink-300 to-violet-50 z-50"
         />
         </h2>
               <p className='text-white'>Siteocean Pvt Ltd is an innovative IT startup committed to pushing the boundaries of technology. We are developing a cutting-edge hyper-local search engine app designed to bring businesses closer to their customers with real-time, location-based offerings. In addition to our product development, we are dedicated to nurturing the next generation of IT professionals by providing comprehensive training programs. Our courses in MERN stack, Java full stack, Python full stack, digital marketing, C, and C++ are tailored to help freshers and students successfully launch their careers in the ever-evolving IT industry.</p>

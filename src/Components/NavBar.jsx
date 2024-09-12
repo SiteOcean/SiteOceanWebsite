@@ -22,10 +22,10 @@ const NavBar = () => {
       <div className="max-w-7xl mx-auto px-2 p-1 sm:p-0 sm:px-6 lg:px-8">
        
         <div className="relative flex items-center justify-between py-2 sm:py-0 sm:min-h-[60px] ">
-          <div className="flex-1 flex flex-col px-5 md:px-1 sm:flex-row md:items-center relative justify-between sm:items-stretch ">
+          <div className="flex-1 flex flex-col px-3 md:px-1 sm:flex-row md:items-center relative justify-between sm:items-stretch ">
             
             {/* icon */}
-            <div  className="sm:hidden flex-shrink-0 absolute top-1 right-5 ">
+            <div  className="sm:hidden flex-shrink-0 absolute top-1 right-2 ">
             
            <button onClick={handleNav}  onBlur={closeMenuOnBlur} className='relative'>
            <svg
@@ -55,7 +55,7 @@ const NavBar = () => {
 
             <div className="flex-shrink-0">
               <Link href="/">
-                <span className="l text-[23px] font-serif">SiteOcean</span>
+                <span className="text-[23px] font-serif">SiteOcean</span>
               </Link>
             </div>
 

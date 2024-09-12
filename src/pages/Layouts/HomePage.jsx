@@ -50,7 +50,7 @@ const HomePage=()=>{
       </div>
       <FaWhatsappSquare
       onClick={handleWhatsAppRedirect}
-       className={'fixed top-[46%] animate-bounce right-2 sm:right-6 text-[#34db80] bg-white text-[50px] rounded-md cursor-pointer'}/>
+       className={'fixed bottom-4 md:top-[46%] animate-bounce right-3 md:right-2 sm:right-6 text-[#34db80] bg-white text-[50px] rounded-md cursor-pointer'}/>
     <Footer/>
     </div>)
 }
