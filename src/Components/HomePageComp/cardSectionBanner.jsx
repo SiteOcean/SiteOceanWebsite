@@ -3,34 +3,34 @@ import React from 'react';
 
 const CardSection = () => {
   return (
-    <section className="bg-gradient-to-r from-[#44d0e2] via-[#59d7e7]  to-purple-400 py-12 relative">
+    <section className="bg-gradient-to-r from-[#44d0e2] via-[#59d7e7] to-purple-400 py-12 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-gray-50 sm:text-4xl">
-            Learn Full Stack Development
+            Discover Local Businesses Instantly
           </h2>
           <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-50">
-            Start your journey to becoming Link full stack developer!
+            Explore nearby products, services, and exclusive offers in real-time with Siteocean.
           </p>
         </div>
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Card 1 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
-              className="w-full h-[300px] md:h-[280px] "
-              src="/frontendDevImg.png" // Replace with your image path
-              alt="Full Stack Development"
+              className="w-full h-[300px] md:h-[280px]"
+              src="/profileCreationImg.png" // Replace with your image path
+              alt="Business Profile Creation"
               priority={true}
             />
             <div className="p-6">
               <h3 className="text-lg font-semibold text-gray-900">
-                Frontend Development
+                Create Your Business Profile
               </h3>
               <p className="mt-2 text-gray-600">
-                Learn to create amazing user interfaces with HTML, CSS, and React.
+                Build an online presence by setting up your profile with detailed information about your business.
               </p>
               <Link
-                href="/Layouts/frontendDevelopment"
+                href="/Layouts/profileCreation"
                 className="mt-4 inline-block text-indigo-500 hover:text-indigo-700 font-medium"
               >
                 Learn More
@@ -42,19 +42,19 @@ const CardSection = () => {
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
               className="w-full h-[300px] md:h-[280px]"
-              src="/backendDevImg.png" // Replace with your image path
-              alt="Backend Development"
+              src="/productsServicesImg.png" // Replace with your image path
+              alt="Add Products and Services"
               priority={true}
             />
             <div className="p-6">
               <h3 className="text-lg font-semibold text-gray-900">
-                Backend Development
+                Showcase Products & Services
               </h3>
               <p className="mt-2 text-gray-600">
-                Master server-side logic, databases, and APIs with Node.js and MongoDB.
+                Add your products and services to attract local customers and increase visibility.
               </p>
               <Link
-                href="/Layouts/backendDevelopment"
+                href="/Layouts/productsServices"
                 className="mt-4 inline-block text-indigo-500 hover:text-indigo-700 font-medium"
               >
                 Learn More
@@ -64,28 +64,25 @@ const CardSection = () => {
 
           {/* Card 3 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-  <img
-    className="w-full h-[300px] md:h-[280px]"
-    src="/cloudDevImg.png" // Replace with your image path
-    alt="Cloud"
-    priority={true}
-  />
-  <div className="p-6">
-    <h3 className="text-lg font-semibold text-gray-900">Cloud</h3>
-    <p className="mt-2 text-gray-600">
-      Learn how to deploy, manage, and scale applications in the cloud.
-    </p>
-    <Link
-      href="/Layouts/cloud"
-      className="mt-4 inline-block text-indigo-500 hover:text-indigo-700 font-medium"
-    >
-      Learn More
-    </Link>
-  </div>
-</div>
-
-
-
+            <img
+              className="w-full h-[300px] md:h-[280px]"
+              src="/offersUpdatesImg.png" // Replace with your image path
+              alt="Real-Time Offers"
+              priority={true}
+            />
+            <div className="p-6">
+              <h3 className="text-lg font-semibold text-gray-900">Real-Time Offers & Updates</h3>
+              <p className="mt-2 text-gray-600">
+                Keep your customers informed with real-time updates on offers and promotions.
+              </p>
+              <Link
+                href="/Layouts/offersUpdates"
+                className="mt-4 inline-block text-indigo-500 hover:text-indigo-700 font-medium"
+              >
+                Learn More
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </section>

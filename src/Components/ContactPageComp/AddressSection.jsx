@@ -14,10 +14,10 @@ const AddressSection = () => {
               <h3 className="text-xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-[#43d7eb] via-[#59d7e7]  to-purple-500 underline underline-offset-4">Company</h3>
               <p className="text-gray-700 font-serif lg:w-[50%]">Site Ocean Private Limited</p>
               </div> 
-              <div>
+              {/* <div>
             <h3 className="text-xl font-bold mb-1 bg-clip-text text-transparent bg-gradient-to-r from-[#43d7eb] via-[#59d7e7]  to-purple-500  underline underline-offset-4">Office Address</h3>
             <p className=" font-serif lg:w-[50%] capitalize">2nd floor, iswarya complex, nethaji rd, pappanaickenpalayam, coimbatore, tamilNadu.<br />641037</p>
-          </div>
+          </div> */}
           <div>
             <h3 className="text-xl font-bold mb-1 bg-clip-text text-transparent bg-gradient-to-r from-[#43d7eb] via-[#59d7e7]  to-purple-500  underline underline-offset-4">Registered Office Address</h3>
             <p className="text-gray-700 font-serif lg:w-[50%]">No. 40/1 & 41/2, Nehru Garden, Dr. A.P.J. AbdulKalam-Block, Nehru Arts & Science College, Madhukarai, Thirumalayampalayam <br />Coimbatore,TamilNadu.<br/>PinCode : 641105</p>
@@ -30,7 +30,7 @@ const AddressSection = () => {
               </div> 
             <div>
               <h3 className="text-xl font-bold mb-2 space-y-2 bg-clip-text text-transparent bg-gradient-to-r from-[#43d7eb] via-[#59d7e7]  to-purple-500  underline underline-offset-4">Email</h3>
-              <p className=" underline text-[#4fc8e6]">info@siteocean.in</p>
+              <p onClick={handleEmailClick} className="cursor-pointer underline text-[#4fc8e6]">info@siteocean.in</p>
               </div>   
             </div>
       </div>
