@@ -16,7 +16,7 @@ const NewFlexSection = () => {
 
         <div data-aos="fade-up" className="w-full lg:w-1/2 px-4 py-4 bg-white">
           <img
-            src={"/flexCardOne.png"}
+            src={"/six.png"}
             width={300}
             height={120}
             alt="Business Profile Creation"
@@ -39,7 +39,7 @@ const NewFlexSection = () => {
 
         <div data-aos="fade-up" className="w-full lg:w-1/2 px-4 py-4">
           <img
-            src={"/flexCardTwo.png"}
+            src={"/three.png"}
             width={300}
             height={120}
             alt="Real-Time Updates"
@@ -62,7 +62,7 @@ const NewFlexSection = () => {
 
         <div data-aos="fade-up" className="w-full lg:w-1/2 px-4 py-4">
           <img
-            src={"/newFlexThree.png"}
+            src={"/four.png"}
             width={300}
             height={120}
             alt="Local Search Visibility"

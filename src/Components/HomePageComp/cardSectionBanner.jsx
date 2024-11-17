@@ -18,7 +18,7 @@ const CardSection = () => {
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
               className="w-full h-[300px] md:h-[280px]"
-              src="/profileCreationImg.png" // Replace with your image path
+              src="/two.png" // Replace with your image path
               alt="Business Profile Creation"
               priority={true}
             />
@@ -42,7 +42,7 @@ const CardSection = () => {
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
               className="w-full h-[300px] md:h-[280px]"
-              src="/productsServicesImg.png" // Replace with your image path
+              src="/eight.png" // Replace with your image path
               alt="Add Products and Services"
               priority={true}
             />
@@ -66,7 +66,7 @@ const CardSection = () => {
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
               className="w-full h-[300px] md:h-[280px]"
-              src="/offersUpdatesImg.png" // Replace with your image path
+              src="/nine.png" // Replace with your image path
               alt="Real-Time Offers"
               priority={true}
             />

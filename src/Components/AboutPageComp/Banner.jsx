@@ -65,7 +65,7 @@ const Banner = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="text-center">
             <img
-              src="/learningNeverEnds.png"
+              src="/five.png"
               alt="Team Member 1"
               width={200}
               height={200}
@@ -75,7 +75,7 @@ const Banner = () => {
           </div>
           <div className="text-center">
             <img
-              src="/Frontend.png"
+              src="/seven.png"
               alt="Team Member 2"
               width={200}
               height={200}
@@ -85,7 +85,7 @@ const Banner = () => {
           </div>
           <div className="text-center">
             <img
-              src="/backendDevImg.png"
+              src="/one.png"
               alt="Team Member 3"
               width={200}
               height={200}
