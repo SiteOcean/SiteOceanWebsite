@@ -1,10 +1,11 @@
+import Footer from "@/Components/Footer";
 import NavBar from "@/Components/NavBar";
 import React from "react";
 
 const ProfileInfo = () => {
   return (
     <div> <NavBar />
-    <div className="max-w-4xl mx-auto py-12 px-6 bg-white rounded-lg shadow-md">
+    <div className="max-w-4xl mx-auto py-12 px-6 bg-white rounded-lg m-3">
       <h2 className="text-3xl font-bold mb-6 text-indigo-600 text-center">Business Profile Creation</h2>
 
       {/* Section 1: Introduction */}
@@ -31,6 +32,7 @@ const ProfileInfo = () => {
         </p>
       </section>
     </div>
+    <Footer/>
     </div>
 
   );

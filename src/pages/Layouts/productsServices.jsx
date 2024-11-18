@@ -1,10 +1,11 @@
+import Footer from "@/Components/Footer";
 import NavBar from "@/Components/NavBar";
 import React from "react";
 
 const ProductsServicesInfo = () => {
   return (
     <div> <NavBar />
-    <div className="max-w-4xl mx-auto py-12 px-6 bg-white rounded-lg shadow-md">
+    <div className="max-w-4xl mx-auto py-12 px-6 m-3 bg-white rounded-lg shadow-md">
       <h2 className="text-3xl font-bold mb-6 text-purple-600 text-center">Add Products & Services</h2>
 
       {/* Section 1: Product Listings */}
@@ -31,6 +32,7 @@ const ProductsServicesInfo = () => {
         </p>
       </section>
     </div>
+    <Footer/>
     </div>
   );
 };

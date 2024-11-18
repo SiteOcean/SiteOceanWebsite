@@ -4,7 +4,7 @@ import ReactTypingEffect from 'react-typing-effect';
 export default function BannerByRaji (){
 
     return( 
-        <div className='bg-gradient-to-r from-[#44d0e2] via-[#59d7e7]  to-purple-400 flex items-center justify-center min-h-[90vh] relative mx-auto px-4 sm:px-6 lg:px-8'>
+        <div className='bg-gradient-to-r from-[#44d0e2] via-[#59d7e7]  to-purple-400 flex items-center justify-center min-h-[60vh] md:min-h-[90vh] relative mx-auto px-4 sm:px-6 lg:px-8'>
                    
                    <div className='bg-purple-600 relative md:w-[80%] mt-4 font-serif text-lg p-5 md:p-10 rounded-md shadow-lg'>
   <h2 className="tracking-wider mb-2">

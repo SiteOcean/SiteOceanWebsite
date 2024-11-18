@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="w-[100%] md:w-[90%] mx-auto py-12">
+    <div className="w-[100%] md:w-[90%] mx-auto py-12 px-3">
       {/* Introduction Section */}
       <section className="text-center mb-12">
         <h1 className="text-2xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#43d7eb] via-[#59d7e7] to-purple-500">

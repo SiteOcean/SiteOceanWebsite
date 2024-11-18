@@ -52,7 +52,7 @@ const NewFlexSection = () => {
       {/* Section 3: Local Search and Instant Visibility */}
       <div className="flex flex-col-reverse sm:flex-row justify-center md:h-[90vh] items-center">
         <div className="w-full lg:w-1/2 px-4 py-4 flex flex-col justify-center align-middle">
-          <h1 className="text-xl sm:w-[70%] mx-auto font-bold mb-2">
+          <h1 className="text-xl sm:w-[70%] font-bold mb-2">
             Enhance Your Local Visibility
           </h1>
           <p data-aos="fade-zoom-in" className="font-serif sm:w-[70%] mx-auto mb-4">

@@ -1,11 +1,12 @@
+import Footer from "@/Components/Footer";
 import NavBar from "@/Components/NavBar";
 import React from "react";
 
 const OffersInfo = () => {
   return (
     <div> <NavBar />
-    <div className="max-w-4xl mx-auto py-12 px-6 bg-white rounded-lg shadow-md">
-      <h2 className="text-3xl font-bold mb-6 text-green-600 text-center">Real-Time Offers & Product Management</h2>
+    <div className="max-w-4xl mx-auto py-12 px-6 m-3 bg-white rounded-lg shadow-md">
+      <h2 className="text-3xl font-bold mb-6 text-green-600">Real-Time Offers & Product Management</h2>
 
       {/* Section 1: Instant Updates */}
       <section className="mb-8">
@@ -31,6 +32,7 @@ const OffersInfo = () => {
         </p>
       </section>
     </div>
+    <Footer/>
     </div>
   );
 };
